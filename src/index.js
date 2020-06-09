@@ -20,11 +20,11 @@ function App() {
     <BrowserRouter>
       <MuiThemeProvider theme={theme}>
         <Switch>
-          <Route exact path={URLS.landing} component={Landing} />
           <Route exact path={URLS.ntnui} component={About} />
           <Route exact path={URLS.admin} component={Admin} />
           <Route exact path={URLS.games} component={Games} />
           <Route exact path={URLS.groups} component={Groups} />
+          <Route path={URLS.landing} component={Landing} />
         </Switch>
       </MuiThemeProvider>
     </BrowserRouter>
