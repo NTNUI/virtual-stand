@@ -27,6 +27,8 @@ const useStyles = makeStyles((theme) => ({
   },
   box: {
     border: '2px solid ' + theme.colors.background.primaryLight,
+    background: theme.colors.background.primaryLight,
+    boxShadow: '0px 1px 4px #222',
     borderRadius: 10,
     display: 'grid',
     overflow: 'hidden',
