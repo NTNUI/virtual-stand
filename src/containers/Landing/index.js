@@ -1,7 +1,6 @@
 import React, {useRef} from 'react';
 import URLS from '../../URLS';
 import {Link} from 'react-router-dom';
-import classnames from 'classnames';
 
 // Material UI Components
 import {makeStyles} from '@material-ui/core/styles';
@@ -35,31 +34,6 @@ const useStyles = makeStyles((theme) => ({
       gridTemplateColumns: '1fr',
     },
   },
-  header: {
-    padding: '20px 0',
-    color: theme.colors.text.main,
-    textAlign: 'center',
-    fontWeight: 600,
-    '@media only screen and (max-width: 700px)': {
-      fontSize: '13vw',
-    },
-  },
-  subtitle: {
-    color: theme.colors.text.main,
-    textAlign: 'center',
-    marginBottom: 10,
-  },
-  fullWidth: {
-    margin: 'auto',
-    maxWidth: 700,
-    width: '100%',
-  },
-  coverButton: {
-    margin: 'auto',
-    maxWidth: 200,
-    width: '100%',
-    marginTop: 20,
-  },
   coverImgContainer: {
     position: 'relative',
     width: '100%',
@@ -82,13 +56,12 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
   },
-  text: {
+  header: {
+    fontSize: '2rem',
     color: theme.colors.text.primaryContrast,
     textShadow: '0px 0px 10px black, 0px 0px 10px black',
     marginTop: 20,
     marginBottom: 20,
-  },
-  center: {
     textAlign: 'center',
   },
   groupButton: {
@@ -100,6 +73,7 @@ const useStyles = makeStyles((theme) => ({
     textShadow: '0px 0px 10px black, 0px 0px 10px black',
     margin: '120px auto',
     textAlign: 'center',
+    fontSize: '1.7rem',
   },
   '@keyframes move': {
     '0%': {
@@ -136,42 +110,34 @@ function Landing(props) {
   return (
     <Navigation footer>
       <div className={classes.coverImgContainer}>
-        <img src={Studenterhytta} alt='Cover bilde' className={classes.coverImg} />
+        <img src={Studenterhytta} alt='Cover bilde' className={classes.coverImg} width='100%' />
         <div className={classes.coverImgContent}>
-          <img src={NTNUILogo} alt='Cover bilde' className={classes.coverImg} />
-          <Typography variant='h5' className={classnames(classes.text, classes.center)}>De beste øyeblikkene i studietiden</Typography>
-          <Button
-            variant='contained'
-            color='secondary'
-            className={classes.coverButton}
-            onClick={executeScroll}
-          >
-            Bli en av oss
-          </Button>
+          <img src={NTNUILogo} alt='Cover bilde' className={classes.coverImg} width='200px' />
+          <Typography variant='h1' className={classes.header}>De beste øyeblikkene i studietiden</Typography>
         </div>
         <IconButton aria-label="Scroll" className={classes.moreButton} onClick={executeScroll}>
-          <ExpandMoreRoundedIcon className={classes.moreIcon} />
+          <ExpandMoreRoundedIcon className={classes.moreIcon} height='40px' />
         </IconButton>
       </div>
       <div className={classes.root} ref={content}>
         <Button component={Link} to={URLS.admin} className={classes.groupButton}>
           <Paper img={genfors}>
-            <Typography variant='h4' className={classes.groupHeader}>Admin</Typography>
+            <Typography variant='h2' className={classes.groupHeader}>Admin</Typography>
           </Paper>
         </Button>
         <Button component={Link} to={URLS.ntnui} className={classes.groupButton}>
           <Paper img={rugby}>
-            <Typography variant='h4' className={classes.groupHeader}>Om NTNUI</Typography>
+            <Typography variant='h2' className={classes.groupHeader}>Om NTNUI</Typography>
           </Paper>
         </Button>
         <Button component={Link} to={URLS.games} className={classes.groupButton}>
           <Paper img={studentlekene}>
-            <Typography variant='h4' className={classes.groupHeader}>Studentlekene</Typography>
+            <Typography variant='h2' className={classes.groupHeader}>Studentlekene</Typography>
           </Paper>
         </Button>
         <Button component={Link} to={URLS.groups} className={classes.groupButton}>
           <Paper img={innebandy}>
-            <Typography variant='h4' className={classes.groupHeader}>Gruppene</Typography>
+            <Typography variant='h2' className={classes.groupHeader}>Gruppene</Typography>
           </Paper>
         </Button>
       </div>

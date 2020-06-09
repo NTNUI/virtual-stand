@@ -40,12 +40,14 @@ const useStyles = makeStyles((theme) => ({
     color: 'white',
     textAlign: 'center',
     padding: '20px 0',
+    fontSize: '2.5rem',
   },
   button: {
     background: theme.colors.ntnui.black,
     width: '100%',
     height: 100,
     borderRadius: 15,
+    fontSize: '1.4rem',
   },
 }));
 
@@ -55,14 +57,14 @@ function Groups(props) {
   const GroupButton = (props) => {
     const {href, children} = props;
     return (
-      <a href={href} target='_noopener'>
-        <Button
-          variant='contained'
-          color='secondary'
-          className={classes.button} >
-          <Typography variant='h6'>{children}</Typography>
-        </Button>
-      </a>);
+      <Button
+        href={href}
+        target='_noopener'
+        variant='contained'
+        color='secondary'
+        className={classes.button} >
+        {children}
+      </Button>);
   };
 
   GroupButton.propTypes = {
@@ -74,9 +76,8 @@ function Groups(props) {
     <Navigation footer>
       <Banner title='Gruppene' />
       <div className={classes.root}>
-        <Typography variant='h6' className={classes.title}>Her er en oversikt over alle de forskjellige gruppene våre</Typography>
+        <Typography variant='h2' className={classes.title}>Her er en oversikt over alle de forskjellige gruppene våre</Typography>
         <div className={classes.boxes}>
-          <GroupButton href="https://ntnui.no/grupper/#aikido">Aikido</GroupButton>
           <GroupButton href="https://ntnui.no/grupper/#aikido">Aikido</GroupButton>
           <GroupButton href="https://ntnui.no/grupper/#amerikanskfotball">Amerikansk Fotball</GroupButton>
           <GroupButton href="https://ntnui.no/grupper/#badminton">Badminton</GroupButton>
