@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/virtual-stand/static/css/main.a4aef633.chunk.css",
+    "main.js": "/virtual-stand/static/js/main.1d13d4e3.chunk.js",
+    "main.js.map": "/virtual-stand/static/js/main.1d13d4e3.chunk.js.map",
+    "runtime-main.js": "/virtual-stand/static/js/runtime-main.b7b5a740.js",
+    "runtime-main.js.map": "/virtual-stand/static/js/runtime-main.b7b5a740.js.map",
+    "static/js/2.2f05f73a.chunk.js": "/virtual-stand/static/js/2.2f05f73a.chunk.js",
+    "static/js/2.2f05f73a.chunk.js.map": "/virtual-stand/static/js/2.2f05f73a.chunk.js.map",
+    "index.html": "/virtual-stand/index.html",
+    "precache-manifest.703e2fe05368f8894fd1d629d5014505.js": "/virtual-stand/precache-manifest.703e2fe05368f8894fd1d629d5014505.js",
+    "service-worker.js": "/virtual-stand/service-worker.js",
+    "static/css/main.a4aef633.chunk.css.map": "/virtual-stand/static/css/main.a4aef633.chunk.css.map",
+    "static/js/2.2f05f73a.chunk.js.LICENSE.txt": "/virtual-stand/static/js/2.2f05f73a.chunk.js.LICENSE.txt",
+    "static/media/NTNUILogo.svg": "/virtual-stand/static/media/NTNUILogo.90e23d9a.svg",
+    "static/media/genfors.jpg": "/virtual-stand/static/media/genfors.3028a02c.jpg",
+    "static/media/innebandy.jpg": "/virtual-stand/static/media/innebandy.ca16e155.jpg",
+    "static/media/rugby.jpg": "/virtual-stand/static/media/rugby.8ea5ee23.jpg",
+    "static/media/studenterhytta.jpg": "/virtual-stand/static/media/studenterhytta.83af13df.jpg",
+    "static/media/studentlekene.jpg": "/virtual-stand/static/media/studentlekene.a6936840.jpg",
+    "static/media/stup.jpg": "/virtual-stand/static/media/stup.a74920f5.jpg",
+    "static/media/triatlon.jpg": "/virtual-stand/static/media/triatlon.b9d47755.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7b5a740.js",
+    "static/js/2.2f05f73a.chunk.js",
+    "static/css/main.a4aef633.chunk.css",
+    "static/js/main.1d13d4e3.chunk.js"
+  ]
+}
