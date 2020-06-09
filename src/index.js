@@ -1,17 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import URLS from './URLS';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// Theme
+import {MuiThemeProvider} from '@material-ui/core/styles';
+import theme from './theme';
+import './assets/css/main.css';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// Project containers
+import Landing from './containers/Landing';
+import About from './containers/About';
+import Admin from './containers/Admin';
+import Games from './containers/Games';
+import Groups from './containers/Groups';
+
+function App() {
+  return (
+    <BrowserRouter>
+      <MuiThemeProvider theme={theme}>
+        <Switch>
+          <Route exact path={URLS.landing} component={Landing} />
+          <Route exact path={URLS.ntnui} component={About} />
+          <Route exact path={URLS.admin} component={Admin} />
+          <Route exact path={URLS.games} component={Games} />
+          <Route exact path={URLS.groups} component={Groups} />
+        </Switch>
+      </MuiThemeProvider>
+    </BrowserRouter>
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
