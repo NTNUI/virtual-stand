@@ -137,7 +137,7 @@ function Landing(props) {
         </Button>
         <Button component={Link} to={URLS.groups} className={classes.groupButton}>
           <Paper img={innebandy}>
-            <Typography variant='h2' className={classes.groupHeader}>Gruppene</Typography>
+            <Typography variant='h2' className={classes.groupHeader}>Grupper</Typography>
           </Paper>
         </Button>
       </div>

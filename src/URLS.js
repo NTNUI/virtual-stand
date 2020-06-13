@@ -2,6 +2,6 @@ export default {
   landing: '/',
   admin: '/admin/',
   ntnui: '/om-ntnui/',
-  groups: '/gruppene/',
+  groups: '/grupper/',
   games: '/studentlekene/',
 };

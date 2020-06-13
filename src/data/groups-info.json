@@ -1,0 +1,388 @@
+[
+    {
+        "slug": "amerikansk-fotball",
+        "name": "Amerikansk fotball",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "badminton",
+        "name": "Badminton",
+        "short_description": "Badminton er en sport som utøves av to lag med enten én eller to spillere på en bane delt av et nett. I motsetning til i andre racketspill, benytter man ikke ball i badminton. Derimot spilles det med et prosjektil lagd av fjær eller en variasjon av plast, som gjerne kalles flue, høne, dusk eller ball.",
+        "long_description": "Trener på dragvoll og gløshaugen, delt opp i to grupper level 1 for første og andre divisjonsspillere,  og level 2 for nybegynnere og viderkomne. Vi er ca. 200 medlemmer, men treningene er relativt åpne så man trenger ikke møte på alt. Noen spiller flere dager i uken mens andre møter opp 1 gang i måneden. Alt er lov!<br/><br/>Holder turnering 2 ganger i året, i år planlegger vi også å reise på bergen challenge i oktober i tillegg til å avholde SL i februar.<br/><br/>Det store høydepunktet er racketfest som er XX.XX i tillegg til kick-off fest XX.XX. Kick-off festen er for nye og gamle medlemmer, i tillegg til folk som gjerne vil bli kjent med badmintongjengen.<br/><br/>Nybegynnerkurset er XX.XX, meld deg på via denne linken: .... Det koster 50 kr og inkluderer bar til bar med resten av gjengen på slutten av kurset!<br/><br/>Ellers kan man stikke innom Level 2 trening og teste, eller Level 1 trening dersom man har spilt aktivt før! Vi ses på trening!",
+        "cover_image": "https://ntnui.no/badminton/wp-content/uploads/sites/156/2019/11/i-RGSVzpZ-X3.jpg",
+        "images": [
+            "https://treningsglede.no/wp-content/uploads/2019/07/1-badminton.jpg"
+        ]
+    },
+    {
+        "slug": "bandy",
+        "name": "Bandy",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "baseball",
+        "name": "Baseball",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "basket",
+        "name": "Basket",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "blits",
+        "name": "Blits",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "boksing",
+        "name": "Boksing",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "bordtennis",
+        "name": "Bordtennis",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "calisthenics",
+        "name": "Calisthenics",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "cheerleading",
+        "name": "Cheerleading",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "dans",
+        "name": "Dans",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "dykkergruppa",
+        "name": "Dykkergruppa",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "event",
+        "name": "Event",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "fekting",
+        "name": "Fekting",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "fotball",
+        "name": "Fotball",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "friidrett",
+        "name": "Friidrett",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "golf",
+        "name": "Golf",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "handball",
+        "name": "Håndball",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "hovedstyret",
+        "name": "Hovedstyret",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "hund",
+        "name": "Hund",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "innebandy",
+        "name": "Innebandy",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "ju-jitsu",
+        "name": "Ju-Jitsu",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "judo",
+        "name": "Judo",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "karate",
+        "name": "Karate",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "kite",
+        "name": "Kite",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "koiene",
+        "name": "Koiene",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "lacrosse",
+        "name": "Lacrosse",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "langrenn",
+        "name": "Langrenn",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "lovutvalget",
+        "name": "Lovutvalget",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "orientering",
+        "name": "Orientering",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "padling",
+        "name": "Padling",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "roing",
+        "name": "Roing",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "rugby",
+        "name": "Rugby",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "seiling",
+        "name": "Seiling",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "sjakk",
+        "name": "Sjakk",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "ski-og-fjellsport",
+        "name": "Ski og fjellsport",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "skyting",
+        "name": "Skyting",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "sprint",
+        "name": "Sprint",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "squash",
+        "name": "Squash",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "svomming",
+        "name": "Svømming",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "swing-og-folkedans",
+        "name": "Swing og Folkedans",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "taekwondo",
+        "name": "Taekwondo",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "telemark-alpint",
+        "name": "Telemark-Alpint",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "tennis",
+        "name": "Tennis",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "tindegruppa",
+        "name": "Tindegruppa",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "triatlon",
+        "name": "Triatlon",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "turn",
+        "name": "Turn",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "volleyball",
+        "name": "Volleyball",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    }
+]

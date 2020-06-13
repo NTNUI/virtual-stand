@@ -34,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
     gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr',
     textAlign: 'center',
     gridGap: 20,
+    minHeight: 88,
   },
   topContentSmall: {
     width: '100%',
@@ -126,7 +127,7 @@ const Banner = (props) => {
             <URIbutton data={{link: URLS.ntnui, text: 'Om NTNUI'}} selected={window.location.pathname === URLS.ntnui} />
             <Link to={URLS.landing} onClick={URLS.landing === window.location.pathname ? () => window.location.reload() : null}><img src={NTNUILogo} alt='Cover bilde' className={classes.logo} height='60px' /></Link>
             <URIbutton data={{link: URLS.games, text: 'Studentlekene'}} selected={window.location.pathname === URLS.games} />
-            <URIbutton data={{link: URLS.groups, text: 'Gruppene'}} selected={window.location.pathname === URLS.groups} />
+            <URIbutton data={{link: URLS.groups, text: 'Grupper'}} selected={window.location.pathname === URLS.groups} />
           </div>
         </Hidden>
         <Hidden mdUp implementation='css'>
@@ -142,7 +143,7 @@ const Banner = (props) => {
             <Button color="primary" className={classNames(classes.link, classes.menuLink)} component={Link} to={URLS.admin} onClick={URLS.admin === window.location.pathname ? () => window.location.reload() : null}>Admin</Button>
             <Button color="primary" className={classNames(classes.link, classes.menuLink)} component={Link} to={URLS.ntnui} onClick={URLS.ntnui === window.location.pathname ? () => window.location.reload() : null}>Om NTNUI</Button>
             <Button color="primary" className={classNames(classes.link, classes.menuLink)} component={Link} to={URLS.games} onClick={URLS.games === window.location.pathname ? () => window.location.reload() : null}>Studentlekene</Button>
-            <Button color="primary" className={classNames(classes.link, classes.menuLink)} component={Link} to={URLS.groups} onClick={URLS.groups === window.location.pathname ? () => window.location.reload() : null}>Gruppene</Button>
+            <Button color="primary" className={classNames(classes.link, classes.menuLink)} component={Link} to={URLS.groups} onClick={URLS.groups === window.location.pathname ? () => window.location.reload() : null}>Grupper</Button>
           </div>
         }
       </header>

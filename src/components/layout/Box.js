@@ -81,7 +81,7 @@ function Box(props) {
       <div className={classes.text}>
         <Typography variant='h2' className={classes.header}>{title}</Typography>
         <p className={classes.subheader}>{text}</p>
-        <BoxButton href={href}>{buttonText}</BoxButton>
+        {href && <BoxButton href={href}>{buttonText}</BoxButton>}
       </div>
     </div>
   );
@@ -89,7 +89,7 @@ function Box(props) {
 
 Box.propTypes = {
   img: PropTypes.string.isRequired,
-  href: PropTypes.string.isRequired,
+  href: PropTypes.string,
   buttonText: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,

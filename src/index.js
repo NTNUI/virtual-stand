@@ -14,6 +14,7 @@ import About from './containers/About';
 import Admin from './containers/Admin';
 import Games from './containers/Games';
 import Groups from './containers/Groups';
+import GroupDetails from './containers/GroupDetails';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route exact path={URLS.admin} component={Admin} />
           <Route exact path={URLS.games} component={Games} />
           <Route exact path={URLS.groups} component={Groups} />
+          <Route exact path={URLS.groups.concat(':slug')} component={GroupDetails} />
           <Route path={URLS.landing} component={Landing} />
         </Switch>
       </MuiThemeProvider>
