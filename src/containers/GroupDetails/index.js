@@ -36,6 +36,20 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '1.2rem',
     margin: '5px 0',
   },
+  images: {
+    display: 'grid',
+    gridGap: 10,
+    gridTemplateColumns: '1fr 1fr',
+    '@media only screen and (max-width: 700px)': {
+      gridTemplateColumns: '1fr',
+    },
+  },
+  image: {
+    border: '2px solid ' + theme.colors.background.primaryLight,
+    borderRadius: 10,
+    height: 320,
+    objectFit: 'cover',
+  },
 }));
 
 function GroupDetails(props) {
@@ -51,12 +65,17 @@ function GroupDetails(props) {
           <div className={classes.root}>
             <Box
               href={group.link || null}
-              buttonText='Bli en av oss!'
+              buttonText={group.link_text || 'Bli en av oss!'}
               title={group.name}
               text={group.short_description}
-              img={group.coverimage || Studenterhytta} />
+              img={group.cover_image || Studenterhytta} />
             <Typography variant='h2' className={classes.title}>Om oss</Typography>
             <p className={classes.text}>{parser(group.long_description)}</p>
+            <div className={classes.images}>
+              {group.images.map((image, i) => (
+                <img key={i} className={classes.image} src={image} alt={group.name} width='100%' />
+              ))}
+            </div>
           </div>
         </> :
         <>
