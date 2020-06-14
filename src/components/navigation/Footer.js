@@ -53,7 +53,7 @@ function Footer(props) {
       <div className={classes.root}>
         <div className={classes.content}>
           <img src={NTNUILOGO} className={classes.logo} alt='NTNUI Logo' height='60px' />
-          <a href='https://ntnui.no/sprint/' target='_noopener' className={classes.sprint}>Laget med &lt;3 av NTNUI Sprint</a>
+          <a href='https://ntnui.no/sprint/' target='_noopener' className={classes.sprint}>Laget med <span role='img' aria-label='kjærlighet'>&#128151;</span> av NTNUI Sprint</a>
           <a href='https://ntnui.no/' target='_noopener' className={classes.sprint}>ntnui.no</a>
         </div>
       </div>
