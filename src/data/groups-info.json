@@ -1,5 +1,13 @@
 [
     {
+        "slug": "aikido",
+        "name": "Aikido",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
         "slug": "amerikansk-fotball",
         "name": "Amerikansk fotball",
         "short_description": "",
@@ -10,14 +18,15 @@
     {
         "slug": "badminton",
         "name": "Badminton",
-        "short_description": "Badminton er en sport som utøves av to lag med enten én eller to spillere på en bane delt av et nett. I motsetning til i andre racketspill, benytter man ikke ball i badminton. Derimot spilles det med et prosjektil lagd av fjær eller en variasjon av plast, som gjerne kalles flue, høne, dusk eller ball.",
-        "long_description": "Trener på dragvoll og gløshaugen, delt opp i to grupper level 1 for første og andre divisjonsspillere,  og level 2 for nybegynnere og viderkomne. Vi er ca. 200 medlemmer, men treningene er relativt åpne så man trenger ikke møte på alt. Noen spiller flere dager i uken mens andre møter opp 1 gang i måneden. Alt er lov!<br/><br/>Holder turnering 2 ganger i året, i år planlegger vi også å reise på bergen challenge i oktober i tillegg til å avholde SL i februar.<br/><br/>Det store høydepunktet er racketfest som er XX.XX i tillegg til kick-off fest XX.XX. Kick-off festen er for nye og gamle medlemmer, i tillegg til folk som gjerne vil bli kjent med badmintongjengen.<br/><br/>Nybegynnerkurset er XX.XX, meld deg på via denne linken: <a href='https://ntnui.no'>klikk her</a>. Det koster 50 kr og inkluderer bar til bar med resten av gjengen på slutten av kurset!<br/><br/>Ellers kan man stikke innom Level 2 trening og teste, eller Level 1 trening dersom man har spilt aktivt før! Vi ses på trening!",
-        "cover_image": "https://ntnui.no/badminton/wp-content/uploads/sites/156/2019/11/i-RGSVzpZ-X3.jpg",
+        "short_description": "NTNUI Badminton har litt over 200 medlemmer og vi trener på Dragvoll og Gløshaugen. Treningene er delt opp etter nivå, og vi arrangerer nybegynnerkurs hvert semester. Studenter som har spilt badminton aktivt eller bare i hagen er veldig velkomne hos oss, og her finner du et godt miljø med et stort mangfold av studieretninger og interesser. Vi er like opptatt av det sosiale, som trening, og hos oss er du garantert mange gode venner! ",
+        "long_description": "Vi ønsker å se deg på neste trening! Treningene våre er delt opp etter nivå, og hvis du ikke har spilt før er du velkommen til å møte opp på level 2 sine treninger. Vi har gratis medlemskap så lenge du har Sit-medlemskap og du kan teste ut et par ganger før du velger å melde deg inn i klubben. Vi arrangerer også mosjonstreninger hver lørdag 10:00-11:30, hvor du ikke trenger å være medlem av NTNUI for å bli med. Disse treningene er på Gløshaugen. <br/><br/>Vi arrangerer nybegynnerkurs hvert semester som koster 50 kr. Dette kurset er svært populært så her er det bare å melde seg på! Du trenger verken rackert eller baller, kun innesko og treningsklær :D Førset kursdag er Søndag 30. August 19:30-21:00 på Dragvoll idrettsenter og kurset går over 3 søndager. Vi avslutter med noe sosialt for alle kursdeltakere og styret etter de tre ukene. Du kan melde deg på kurset gjennom denne linken: <a href='https://forms.gle/XyCrQMxJ85VB7Zzp7'>https://forms.gle/XyCrQMxJ85VB7Zzp7</a><br/><br/>Vi er også svært glad i turneringer og arrangerer selv én turnering hvert semester. Her kommer spillere fra hele Trøndelag til Dragvoll, og det arrangeres både nybegynnerklasser og for de mer erfarne. I tillegg reiser vi rundt på andre turneringer, og hvis du ønsker har du fort mulighet til å spille turnering hver helg! Dette semesteret skal vi blant annet reise til Bergen Challenge, en av Norges største student-arrangementer. Bli med! <br/><br/>Vi er en svært sosial gjeng som likter å ta oss en fest. Årets store høydepunkt er den kjente og tradisjonelle racketfesten som vi arrangerer sammen med NTNUI Tennis og NTNUI Squash. Da reiser vi opp på studenterhytta og koser oss med god mat, pene antrekk, stamp og badstu. Alle medlemmer har mulighet til å bli med her. Vi arrangerer i tillegg kick-off fest til hvert semester, afterparty etter våre egne turneringer, 17. mai-frokost, og vors før NTNUI-arrangementer som Gudenes Natteliv og Julebord. <br/><br/>Level 1 (A- og B-spillere) trener mandager 20:30-22:00 og onsdager 19:00-20:30 på Dragvoll.<br/><br/>Level 2 (C, D og Nybegynnere) trener tirsdager 14:30-16:00 og i mosjonstiden på lørdager 10:00-11:30. Søndager 19:30-22:00 er åpne for alle medlemmer.<br/><br/>Vi har et svært avslappet miljø hvor du møter opp på de treningene du vil. Fokuset er å kose seg med badminton og holde seg i form, ikke å bli norgesmestre :) Vi har alikevell en del gode spillere i klubben som tidligere har ligget på landslagsnivå, og vi kriger hvert år om å vinne første divisjon. I vår lyktes vi med å vinne både første og andre divisjon, i tillegg til at vi fikk flere kretsmestere i 2019! ",
+        "cover_image": "https://i.ibb.co/zxLmwMV/i-BZC4-B2-S-X2-Emilie-Faarup-Storvik.jpg",
         "images": [
-            "https://treningsglede.no/wp-content/uploads/2019/07/1-badminton.jpg",
-            "https://lh3.googleusercontent.com/proxy/8CGrJ3j_9boD4vOgOJfzuTv3bOt9fFl1ILDuPk0WPRvipohEfECt7i9tWGRM7gaDyCbn8ef8AXBlW9b4MVQvTaq0MYNpP_G9YJmwFD5PA8zpQ3vUkhnxgPgpqaW3Sp2iJuE8XI6iqPgPylPD7_B-JB4",
-            "https://treningsglede.no/wp-content/uploads/2019/07/1-badminton.jpg",
-            "https://lh3.googleusercontent.com/proxy/8CGrJ3j_9boD4vOgOJfzuTv3bOt9fFl1ILDuPk0WPRvipohEfECt7i9tWGRM7gaDyCbn8ef8AXBlW9b4MVQvTaq0MYNpP_G9YJmwFD5PA8zpQ3vUkhnxgPgpqaW3Sp2iJuE8XI6iqPgPylPD7_B-JB4"
+            "https://i.ibb.co/D9v6S1w/i-Kqzb-Lgw-X2-Emilie-Faarup-Storvik.jpg",
+            "https://i.ibb.co/1QGMzXk/IMG-6257-Emilie-Faarup-Storvik.jpg",
+            "https://i.ibb.co/d2xxmVQ/i-R2-D4v-Lx-X2-Emilie-Faarup-Storvik.jpg",
+            "https://i.ibb.co/1vxRt1V/i-RGSVzp-Z-X3-Emilie-Faarup-Storvik.jpg",
+            "https://i.ibb.co/Hngzkhq/lagbilde-NTNUI-Emilie-Faarup-Storvik.jpg"
         ]
     },
     {
@@ -103,6 +112,14 @@
     {
         "slug": "event",
         "name": "Event",
+        "short_description": "",
+        "long_description": "",
+        "cover_image": "",
+        "images": []
+    },
+    {
+        "slug": "esport",
+        "name": "E-sport",
         "short_description": "",
         "long_description": "",
         "cover_image": "",
