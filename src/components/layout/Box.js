@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import GA from '../../analytics';
 
 // Material UI Components
 import {makeStyles} from '@material-ui/core/styles';
@@ -73,6 +74,7 @@ function Box(props) {
         target='_noopener'
         variant='contained'
         color='secondary'
+        onClick={GA.event('Button click', href)}
         className={classes.button} >
         {buttonText}
       </Button>);
