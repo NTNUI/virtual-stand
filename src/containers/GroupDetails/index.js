@@ -32,6 +32,11 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: 5,
     fontSize: '2.5rem',
   },
+  contact: {
+    paddingTop: 0,
+    paddingBottom: 0,
+    fontSize: '2rem',
+  },
   text: {
     fontSize: '1.2rem',
     margin: '5px 0',
@@ -75,6 +80,8 @@ function GroupDetails(props) {
               img={group.cover_image || Studenterhytta} />
             <Typography variant='h2' className={classes.title}>Om oss</Typography>
             <p className={classes.text}>{parser(group.long_description)}</p>
+            <Typography variant='h3' className={classes.contact}>Kontakt:</Typography>
+            <p className={classes.text}>{group.contact}</p>
             {group.video &&
               <video className={classes.video} controls src={group.video} width='100%' />
             }

@@ -42,6 +42,9 @@ const useStyles = makeStyles((theme) => ({
     color: 'white',
     padding: 40,
     gridArea: 'text',
+    '@media only screen and (max-width: 700px)': {
+      padding: 20,
+    },
   },
   img: {
     gridArea: 'img',
