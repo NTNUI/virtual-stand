@@ -25,8 +25,8 @@
             "https://i.ibb.co/D9v6S1w/i-Kqzb-Lgw-X2-Emilie-Faarup-Storvik.jpg",
             "https://i.ibb.co/1QGMzXk/IMG-6257-Emilie-Faarup-Storvik.jpg",
             "https://i.ibb.co/d2xxmVQ/i-R2-D4v-Lx-X2-Emilie-Faarup-Storvik.jpg",
-            "https://i.ibb.co/1vxRt1V/i-RGSVzp-Z-X3-Emilie-Faarup-Storvik.jpg",
-            "https://i.ibb.co/Hngzkhq/lagbilde-NTNUI-Emilie-Faarup-Storvik.jpg"
+            "https://i.ibb.co/Hngzkhq/lagbilde-NTNUI-Emilie-Faarup-Storvik.jpg",
+            "https://i.ibb.co/1vxRt1V/i-RGSVzp-Z-X3-Emilie-Faarup-Storvik.jpg"
         ]
     },
     {
@@ -53,11 +53,12 @@
         "cover_image": "https://i.ibb.co/gttDKGy/MG-6689-Dag-Hjorth-Endresen.jpg",
         "images": [
             "https://i.ibb.co/zFyKpdj/22829142-1707900339242996-7323568442809412633-o-Dag-Hjorth-Endresen.jpg",
+            "https://i.ibb.co/MPkwTRs/Skjermbilde-2020-06-15-kl-11-47-50-Dag-Hjorth-Endresen.png",
             "https://i.ibb.co/MGYdYbp/Shakers-Dag-Hjorth-Endresen.jpg",
-            "https://i.ibb.co/719MbZn/Skjermbilde-2020-06-15-kl-11-44-11-Dag-Hjorth-Endresen.png",
             "https://i.ibb.co/SsfWLWZ/Skjermbilde-2020-06-15-kl-11-44-48-Dag-Hjorth-Endresen.png",
-            "https://i.ibb.co/MPkwTRs/Skjermbilde-2020-06-15-kl-11-47-50-Dag-Hjorth-Endresen.png"
-        ]
+            "https://i.ibb.co/719MbZn/Skjermbilde-2020-06-15-kl-11-44-11-Dag-Hjorth-Endresen.png"
+        ],
+        "video": "https://res.cloudinary.com/olros/video/upload/v1592387319/samples/elephants.mp4"
     },
     {
         "slug": "blits",
@@ -97,7 +98,8 @@
         "short_description": "Cheerleading er en konkurranseidrett hvor man lærer seg en rutine som er basert på pyramider, kast, cheer (som er rop), hopp, turn og stunts. I cheerleading er man avhengig av enhver utøver for at laget skal kunne trene og konkurrere. Samhold, samarbeid og tillit er derfor stikkord som beskriver idretten som helhet.",
         "long_description": "<p>NTNUI Cheerleading er delt opp i to lag; Hjemmelaget konkurrerer i kategorien All girl og Bortelaget konkurrerer i kategorien Senior Coed Elite Lvl 5.</p> <p>Hvert semester trener vi mot en konkurranse. For Bortelaget er dette gjerne Norwegian Open (1. kvalifiseringscup til NM) som arrangeres hvert år i november, og NCL (norgesmesterskap) i mars. Bortelaget kan bestå av maksimalt 24 utøvere, og vi har uttak for dette hvert semester.</p> <p>Hjemmelaget konkurrerer lokalt her i Trondheim Open, og tar hovedsaklig opp nye utøvere i starten av høstsemesteret og vårsemesteret.</p> <p>Hos oss er en opptatt av teambulding for at utøvere skal ha mest mulig tillit til hverandre. Derfor arrangerer vår sosialkomité mye sosialt i løpet av året, blant annet julebord, hytteturer og mye annet gøy.</p> <p>Dersom du er interessert i å teste ut cheerleading arrangerer vi åpne treninger tidlig i semesteret. Følg med på hjemmesiden og facebooksiden vår for annonsering av åpne treninger og uttak!</p>",
         "cover_image": "https://i.ibb.co/D1tV1wC/31-AF7-A2436-Mercy-Tolla.jpg",
-        "images": []
+        "images": [],
+        "video": ""
     },
     {
         "slug": "dans",
@@ -410,8 +412,8 @@
             "https://i.ibb.co/HzKDrbv/riktig-Marie-Holen.jpg",
             "https://i.ibb.co/4thygW0/IMG-0742-Marie-Holen.jpg",
             "https://i.ibb.co/rpswxHy/ferdig-Marie-Holen.jpg",
-            "https://i.ibb.co/rMRNhWw/j-Flh-Vi-BQ-Marie-Holen.jpg",
-            "https://i.ibb.co/bssF7W1/IMG-6573-kopi-Marie-Holen.jpg"
+            "https://i.ibb.co/bssF7W1/IMG-6573-kopi-Marie-Holen.jpg",
+            "https://i.ibb.co/rMRNhWw/j-Flh-Vi-BQ-Marie-Holen.jpg"
         ]
     },
     {

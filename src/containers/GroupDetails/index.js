@@ -47,8 +47,12 @@ const useStyles = makeStyles((theme) => ({
   image: {
     border: '2px solid ' + theme.colors.background.primaryLight,
     borderRadius: 10,
-    height: 320,
-    objectFit: 'cover',
+    margin: 'auto',
+    background: theme.colors.background.primaryLight,
+  },
+  video: {
+    border: '2px solid ' + theme.colors.background.primaryLight,
+    borderRadius: 10,
   },
 }));
 
@@ -67,10 +71,13 @@ function GroupDetails(props) {
               href={group.link || null}
               buttonText={group.link_text || 'Bli en av oss!'}
               title={group.name}
-              text={group.short_description}
+              text={parser(group.short_description)}
               img={group.cover_image || Studenterhytta} />
             <Typography variant='h2' className={classes.title}>Om oss</Typography>
             <p className={classes.text}>{parser(group.long_description)}</p>
+            {group.video &&
+              <video className={classes.video} controls src={group.video} width='100%' />
+            }
             <div className={classes.images}>
               {group.images.map((image, i) => (
                 <img key={i} className={classes.image} src={image} alt={group.name} width='100%' />
