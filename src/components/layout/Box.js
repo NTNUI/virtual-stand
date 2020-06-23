@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import GA from '../../analytics';
+import parser from 'html-react-parser';
 
 // Material UI Components
 import {makeStyles} from '@material-ui/core/styles';
@@ -85,7 +86,7 @@ function Box(props) {
       <img className={classes.img} alt={title} src={img} />
       <div className={classes.text}>
         <Typography variant='h2' className={classes.header}>{title}</Typography>
-        <p className={classes.subheader}>{text}</p>
+        <p className={classes.subheader}>{parser(text)}</p>
         {href && <BoxButton href={href}>{buttonText}</BoxButton>}
       </div>
     </div>

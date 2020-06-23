@@ -1,5 +1,6 @@
 import React, {useRef} from 'react';
 import URLS from '../../URLS';
+import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom';
 
 // Material UI Components
@@ -10,16 +11,16 @@ import IconButton from '@material-ui/core/IconButton';
 
 // Images/icons
 import Studenterhytta from '../../assets/img/studenterhytta.jpg';
+import aktivCampus from '../../assets/img/aktivCampus.jpg';
 import NTNUILogo from '../../assets/img/NTNUILogo.svg';
 import genfors from '../../assets/img/genfors.jpg';
-import rugby from '../../assets/img/rugby.jpg';
-import innebandy from '../../assets/img/innebandy.jpg';
 import studentlekene from '../../assets/img/studentlekene.jpg';
 import ExpandMoreRoundedIcon from '@material-ui/icons/ExpandMoreRounded';
 
 // Project Components
 import Paper from '../../components/layout/Paper';
 import Navigation from '../../components/navigation/Navigation';
+import GroupsInfo from '../../data/groups-info.json';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -67,13 +68,16 @@ const useStyles = makeStyles((theme) => ({
   groupButton: {
     padding: 0,
     borderRadius: 15,
+    '&:hover': {
+      boxShadow: '0px 1px 4px #dddddd',
+    },
   },
   groupHeader: {
     color: theme.colors.text.primaryContrast,
-    textShadow: '0px 0px 10px black, 0px 0px 10px black',
+    textShadow: '0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black',
     margin: '120px auto',
     textAlign: 'center',
-    fontSize: '1.7rem',
+    fontSize: '2.2rem',
   },
   '@keyframes move': {
     '0%': {
@@ -98,14 +102,70 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 60,
     color: '#FAF089',
   },
+  groupsRoot: {
+    maxWidth: 1200,
+    margin: 'auto',
+    padding: 20,
+    width: '100%',
+    display: 'grid',
+    gridTemplateColumns: '1fr',
+    gridGap: 20,
+  },
+  boxes: {
+    display: 'grid',
+    overflow: 'hidden',
+    gridTemplateColumns: '1fr 1fr 1fr',
+    gridGap: 20,
+    '@media only screen and (max-width: 1000px)': {
+      gridTemplateColumns: '1fr 1fr',
+    },
+    '@media only screen and (max-width: 700px)': {
+      gridTemplateColumns: '1fr',
+    },
+  },
+  box: {
+    border: '2px solid ' + theme.colors.background.primaryLight,
+    borderRadius: 10,
+  },
+  title: {
+    color: 'white',
+    textAlign: 'center',
+    padding: '20px 0',
+    fontSize: '2.5rem',
+  },
+  button: {
+    background: theme.colors.ntnui.black,
+    width: '100%',
+    height: 100,
+    borderRadius: 15,
+    fontSize: '1.4rem',
+  },
 }));
 
-const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
+const scrollToRef = (ref) => window.scrollTo({top: ref.current.offsetTop, behavior: 'smooth'});
 
 function Landing(props) {
   const classes = useStyles();
   const content = useRef(null);
   const executeScroll = () => scrollToRef(content);
+
+  const GroupButton = (props) => {
+    const {to, children} = props;
+    return (
+      <Button
+        component={Link}
+        to={to}
+        variant='contained'
+        color='secondary'
+        className={classes.button}>
+        {children}
+      </Button>);
+  };
+
+  GroupButton.propTypes = {
+    to: PropTypes.string.isRequired,
+    children: PropTypes.string.isRequired,
+  };
 
   return (
     <Navigation footer>
@@ -126,7 +186,7 @@ function Landing(props) {
           </Paper>
         </Button>
         <Button component={Link} to={URLS.ntnui} className={classes.groupButton}>
-          <Paper img={rugby}>
+          <Paper img={'https://ntnui.no/wp-content/uploads/2020/03/visjon-2.jpg'}>
             <Typography variant='h2' className={classes.groupHeader}>Om NTNUI</Typography>
           </Paper>
         </Button>
@@ -135,11 +195,19 @@ function Landing(props) {
             <Typography variant='h2' className={classes.groupHeader}>Studentlekene</Typography>
           </Paper>
         </Button>
-        <Button component={Link} to={URLS.groups} className={classes.groupButton}>
-          <Paper img={innebandy}>
-            <Typography variant='h2' className={classes.groupHeader}>Grupper</Typography>
+        <Button component={Link} to={URLS.activeCampus} className={classes.groupButton}>
+          <Paper img={aktivCampus}>
+            <Typography variant='h2' className={classes.groupHeader}>AktivCampus</Typography>
           </Paper>
         </Button>
+      </div>
+      <div className={classes.groupsRoot}>
+        <Typography variant='h2' className={classes.title}>Gruppene våre</Typography>
+        <div className={classes.boxes}>
+          {GroupsInfo.map((group) => (
+            <GroupButton key={group.slug} to={URLS.groups.concat(group.slug).concat('/')}>{group.name}</GroupButton>
+          ))}
+        </div>
       </div>
     </Navigation>
   );

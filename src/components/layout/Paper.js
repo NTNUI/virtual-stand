@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.colors.background.secondary,
     background: (props) => props.img ? 'url("' + props.img + '")' : '',
     backgroundSize: 'cover !important',
+    backgroundPosition: 'center !important',
     borderRadius: 15,
     padding: 20,
   },

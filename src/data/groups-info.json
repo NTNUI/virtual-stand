@@ -67,15 +67,6 @@
         "video": "https://res.cloudinary.com/olros/video/upload/v1592387319/samples/elephants.mp4"
     },
     {
-        "slug": "blits",
-        "name": "Blits",
-        "short_description": "",
-        "long_description": "",
-        "contact": "",
-        "cover_image": "",
-        "images": []
-    },
-    {
         "slug": "boksing",
         "name": "Boksing",
         "short_description": "",
@@ -131,15 +122,6 @@
         "images": []
     },
     {
-        "slug": "event",
-        "name": "Event",
-        "short_description": "",
-        "long_description": "",
-        "contact": "",
-        "cover_image": "",
-        "images": []
-    },
-    {
         "slug": "esport",
         "name": "E-sport",
         "short_description": "",
@@ -187,15 +169,6 @@
     {
         "slug": "handball",
         "name": "Håndball",
-        "short_description": "",
-        "long_description": "",
-        "contact": "",
-        "cover_image": "",
-        "images": []
-    },
-    {
-        "slug": "hovedstyret",
-        "name": "Hovedstyret",
         "short_description": "",
         "long_description": "",
         "contact": "",
@@ -289,15 +262,6 @@
         "images": []
     },
     {
-        "slug": "lovutvalget",
-        "name": "Lovutvalget",
-        "short_description": "",
-        "long_description": "",
-        "contact": "",
-        "cover_image": "",
-        "images": []
-    },
-    {
         "slug": "orientering",
         "name": "Orientering",
         "short_description": "",
@@ -363,15 +327,6 @@
     {
         "slug": "skyting",
         "name": "Skyting",
-        "short_description": "",
-        "long_description": "",
-        "contact": "",
-        "cover_image": "",
-        "images": []
-    },
-    {
-        "slug": "sprint",
-        "name": "Sprint",
         "short_description": "",
         "long_description": "",
         "contact": "",
