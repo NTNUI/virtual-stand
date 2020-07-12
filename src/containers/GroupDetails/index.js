@@ -76,7 +76,7 @@ function GroupDetails(props) {
               href={group.link || null}
               buttonText={group.link_text || 'Bli en av oss!'}
               title={group.name}
-              text={parser(group.short_description)}
+              text={group.short_description}
               img={group.cover_image || Studenterhytta} />
             <Typography variant='h2' className={classes.title}>Om oss</Typography>
             <p className={classes.text}>{parser(group.long_description)}</p>

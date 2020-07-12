@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 // Material UI Components
@@ -17,10 +17,6 @@ const useStyles = makeStyles((theme) => ({
 function Navigation(props) {
   const {children, isLoading, footer} = props;
   const classes = useStyles();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   return (
     <>

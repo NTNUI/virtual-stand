@@ -86,7 +86,7 @@ function Box(props) {
       <img className={classes.img} alt={title} src={img} />
       <div className={classes.text}>
         <Typography variant='h2' className={classes.header}>{title}</Typography>
-        <p className={classes.subheader}>{parser(text)}</p>
+        <p className={classes.subheader}>{parser(text !== '' ? text : ' ')}</p>
         {href && <BoxButton href={href}>{buttonText}</BoxButton>}
       </div>
     </div>

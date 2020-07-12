@@ -2,10 +2,10 @@
     {
         "slug": "aikido",
         "name": "Aikido",
-        "short_description": "",
-        "long_description": "",
-        "contact": "",
-        "cover_image": "",
+        "short_description": "Aikido: en moderne kampkunst for kropp og sinn",
+        "long_description": "<p>Aikido er trening for å håndtere vanskelige og stressende situasjoner med ro og smidighet.<br> Med utgangspunkt i japanske selvforsvarsteknikker er det først og fremst en treningsform for kroppslig og mental utvikling.</p> <p>En typisk treningsøkt begynner med oppvarming, lett tøyning og pusteøvelser, før vi går videre til trening på fallteknikk og til selve teknikkene.</p> <p>Vi trener i en konsentrert og avslappet atmosfære, noe som gjør aikidoøkten til en form for meditasjon i bevegelse. Samtidig gir aikido allsidig trening for hele kroppen.</p> <p>NTNUI Aikido er en sosial og inkluderende klubb, med erfarne instruktører. Klubben er medlem av Norges Aikidoforbund og Norges Kampsportforbund.</p> <p>For mer informasjon og våre treningstider, se <a href=\"https://ntnui-aikido.com/\">https://ntnui-aikido.com/</a></p>",
+        "contact": "trener@aikido.org.ntnu.no",
+        "cover_image": "https://i.ibb.co/QHXW5hd/Aikido-bilde-foto-av-Beau-Sanders-Marius-Warholm-Haugen.jpG",
         "images": []
     },
     {
@@ -87,11 +87,16 @@
     {
         "slug": "calisthenics",
         "name": "Calisthenics",
-        "short_description": "",
-        "long_description": "",
-        "contact": "",
-        "cover_image": "",
-        "images": []
+        "short_description": "Calisthenics er i all hovedsak egenvektstrening. Vi trener både teknikk og styrke mot øvelser som pull ups, push ups, human flag, handstand, osv. Kroppskontroll er altså noe du ikke kan få for mye av!",
+        "long_description": "<p>Selv om calisthenics er en invididuell treningsform kan man nytte veldig godt av å ha en motiverende og inspirerende gruppe rundt seg når man trener. Vi har medlemmer på alle nivåer, noe som fører til at vi lærer mye av hverandre.</p> <p>Treningene våre er lagt opp slik at man selv må ta initiativ når det gjelder gjennomføringen av feks styrketreningen. Det betyr absolutt ikke at man er på egenhånd under treningen, men heller ikke at man får et ferdigskrevet program for økten. Trenerene holder oppvarming og introduserer fokuset for dagens økt (styrke, håndstående, osv) og forslag til anbefalte øvelser for forskjellige nivå.</p> <p>NTNUI Calisthenics har opp mot 70 aktive medlemmer, og vi har også personer på venteliste. Vi ser på muligheter for å utvide tilbudet vårt. Til nå har vi hatt en åpen trening for alle i Sit sine lokaler på gløshaugen. Vi tar i hovedsak inn nye medlemmer i starten av vår- og høstsemesteret, eller fortløpende dersom det skulle være mulighet for det.</p> <p>Treningene for medlemmer holdes på onsdager, fredager og søndager.<br> Vi har sosiale arrangement som blant bli-kjent-fester, koieturer, nyttårsfest og i tillegg så prøver vi å få til en treningstur til et varmere land på vårsemesteret. Vi er opptatt av det sosiale miljøet, og du vil mest sannsynlig ende opp med mange gode venner i gruppa!</p> <p>Dersom NTNUI Calisthenics virker interessant anbefaler vi deg å sette deg på ventelista (“registrer deg”-knappen på facebook) og følge med på vår offentlige facebook side (NTNUI Calisthenics).</p>",
+        "contact": "Leder Hanne Ringvoll - calisthenics-leder@ntnui.no      Nestleder Erik Larsen - calisthenics-nestleder@ntnui.no",
+        "cover_image": "https://i.ibb.co/fnCmYzP/N-Dittrich-CT-523.jpg",
+        "images": [
+            "https://i.ibb.co/k9fznLq/N-Dittrich-CT-517.jpg",
+            "https://i.ibb.co/FspnV8s/N-Dittrich-CT-530.jpg",
+            "https://i.ibb.co/d68gx9V/N-Dittrich-CT-531.jpg",
+            "https://i.ibb.co/GCpH3JK/Nils-Dittrich-DSC01877.jpg"
+        ]
     },
     {
         "slug": "cheerleading",
@@ -100,7 +105,10 @@
         "long_description": "<p>NTNUI Cheerleading er delt opp i to lag; Hjemmelaget konkurrerer i kategorien All girl og Bortelaget konkurrerer i kategorien Senior Coed Elite Lvl 5.</p> <p>Hvert semester trener vi mot en konkurranse. For Bortelaget er dette gjerne Norwegian Open (1. kvalifiseringscup til NM) som arrangeres hvert år i november, og NCL (norgesmesterskap) i mars. Bortelaget kan bestå av maksimalt 24 utøvere, og vi har uttak for dette hvert semester.</p> <p>Hjemmelaget konkurrerer lokalt her i Trondheim Open, og tar hovedsaklig opp nye utøvere i starten av høstsemesteret og vårsemesteret.</p> <p>Hos oss er en opptatt av teambulding for at utøvere skal ha mest mulig tillit til hverandre. Derfor arrangerer vår sosialkomité mye sosialt i løpet av året, blant annet julebord, hytteturer og mye annet gøy.</p> <p>Dersom du er interessert i å teste ut cheerleading arrangerer vi åpne treninger tidlig i semesteret. Følg med på hjemmesiden og facebooksiden vår for annonsering av åpne treninger og uttak!</p>",
         "contact": "cheerleading-leder@ntnui.no",
         "cover_image": "https://i.ibb.co/D1tV1wC/31-AF7-A2436-Mercy-Tolla.jpg",
-        "images": [],
+        "images": [
+            "https://i.ibb.co/7V6y9gP/31-AF7-A2436.jpg",
+            "https://i.ibb.co/rmP02cr/digfz2098.jpg"
+        ],
         "video": ""
     },
     {
@@ -219,11 +227,17 @@
     {
         "slug": "karate",
         "name": "Karate",
-        "short_description": "",
-        "long_description": "",
-        "contact": "",
-        "cover_image": "",
-        "images": []
+        "short_description": "NTNUI Karate driver med Shotokan Karate, som er den mest populære karate stilen i verden. For deg som har lyst å prøve denne morsomme kampsporten for første gang så blir du tatt gott imot på nybegynnergruppen vår! Hvis du har trent karate før, uansett hvilken stilart, så er du velkommen på treninger med viderekomne partiet vårt. Treningene våre er hovedsakelig på Gløshaugen, med ett par treninger på Dragvoll. ",
+        "long_description": "<p>Karate er en kampsport som har sin opprinnelse på den Japanske øyen Okinawa hvor det var tenkt for selvforsvar. Karate er en våpenløs kampsport (karate betyr jo tom hånd på japansk) basert på slag og spark, med litt av fellinger også. Karate er delt opp i svært mange stilarter og trener vi den mest populære, Shotokan. Treninger fokuserer på teknikk, hvor man lærer å utføre teknikkene riktig og på partnerøvelser, hvor man lærer å bruke teknikkene mot en motstander. NTNUI Karate har svært erfarne instruktører, hovedinstruktøren vår er Stig Rønning som er også landslagsinstruktør.</p> <p>På nybegynnertreningene våre er det svært stor fokus på att du lærer de grunnleggende teknikkene i karate, slag, spark og blokkeringer, samt litt lett sparring med partner også. Det eneste du trenger for å komme på trening er ett SIT medlemskap. Det er ikke krav på noen registrering og du kan møte opp på noen treninger for å prøve, uten noe binding. Karatedrakt (gi) er ikke nødvendig å ha på trening, det holder med vanlige treningstøy som er er behagelig å bevege seg i. Hvis det ønskes, så er det mulig å kjøpe gi igjennom klubben.<br> Treningsavgift er 300 kr. for ett semester eller 500 kr. for ett år.</p> <p>Vi har også ett aktivt sosialt miljø, da det er viktig å ha en god og vennlig stemning på treninger. Som eksempel av sosial aktiviter som skjer under semesteret er nybegynnerfest, filmkvelder (ofte kampsportfilmer, selfølgelig) og sushi buffeter. Vi er også i kontakt med de andre kampsportgruppene på NTNUI, hvor engang i året har vi en fellestreningssamling hvor man får prøve alle de forskjellige kampsportene som er å finne på NTNUI.</p> <p>NTNUI Karate er en aktiv del av det Norske karatemiljøet og det er mulig å dra på treningsleirer både innen Norge og utenlands. I tilleg så arrangerer vi en treningssamling i året, hvor Sensei Kawasoe, som er hovedtreneren for hele Norge kommer, samt utøvere fra hele landet.</p> <p>Så, hvis karate høres fristende ut for deg, så er det bare å møte opp!</p>",
+        "contact": "Helgi Freyr Jónsson (leder): karate-leder@ntnui.no. facebook.com/ntnuikarate",
+        "cover_image": "https://i.ibb.co/YN1hr3t/82290686-984328448604029-1371022434978758656-n-Helgi-Freyr-J-nsson.png",
+        "images": [
+            "https://i.ibb.co/rZ3hDn2/38132213-636955006674710-4322050668278841344-n-Helgi-Freyr-J-nsson.jpg",
+            "https://i.ibb.co/0FJC4rs/106014907-268558144477765-6199471468149175681-n-Helgi-Freyr-J-nsson.jpg",
+            "https://i.ibb.co/r2sk2z8/106087790-593735008232167-7000869880995615509-n-Helgi-Freyr-J-nsson.jpg",
+            "https://i.ibb.co/7zkhs1M/106208227-2457876761170590-4343953680575436443-n-Helgi-Freyr-J-nsson.jpg",
+            "https://i.ibb.co/rvZN8nT/84799287-10103808730426105-7851074713848643584-o-Helgi-Freyr-J-nsson.jpg"
+        ]
     },
     {
         "slug": "kite",
@@ -298,6 +312,20 @@
         "images": []
     },
     {
+        "slug": "rumpeldunk",
+        "name": "Rumpeldunk",
+        "short_description": "Rumpeldunk er en kjapp, taktisk fullkontaktsport. Hvert lag har 7 spillere på banen, i kjønnsblandede lag. Spillerne har ulike posisjoner: Jagere og keepere scorer mål, knakkere prøver å slå ut motstanderne med klabber, og speidere prøver å fange snoppen. De ulike posisjonene blir markert av ulikt fargede hodebånd. Alle spillerne må ha en lime mellom beina (dette er typisk et PVC-rør).",
+        "long_description": "<p>Vi trener i Dødens Dal, rett ved campus Gløshaugen, tre ganger i uka: Tirsdag 17:30-19, onsdag 18:30-20 og fredag 18.30-20. Alle er velkommen og vi stiller med alt av utstyr, bare ta med treningstøy og vannflaske!</p> <p>I løpet av en sesong kan vi tilby seriespill, NM og EM, i tillegg til en kvalifiseringsturnering for EM i løpet av høsten hvor vi vanligvis sender to lag slik at det alltid er mulig å få spilletid. Vi har også et flott sosialt miljø med blant annet hytteturer til NTNUI-koiene og andre sosiale turer, og fester som julebord og diverse feiringer.</p> <p>Vi har intro-treninger i begynnelsen av hvert semester, men du kan besøke oss når som helst. Følg med på Facebook: <a href=\"https://www.facebook.com/ntnuirumpeldunk/\">https://www.facebook.com/ntnuirumpeldunk/</a> og Instagram: <a href=\"https://www.instagram.com/ntnuirumpeldunk/\">https://www.instagram.com/ntnuirumpeldunk/</a> for å holde deg oppdatert på hva vi driver med.</p>",
+        "contact": "rumpeldunk-styret@ntnui.no",
+        "cover_image": "https://i.ibb.co/NT6dLL9/OPaulsrud-2-Daniel-Korneliussen.jpg",
+        "images": [
+            "https://i.ibb.co/1XZvkfF/OPaulsrud-13.jpg",
+            "https://i.ibb.co/47SH8BC/OPaulsrud-29.jpg",
+            "https://i.ibb.co/t4szNCP/OPaulsrud-34.jpg",
+            "https://i.ibb.co/5nQjmYd/OPaulsrud-44.jpg"
+        ]
+    },
+    {
         "slug": "seiling",
         "name": "Seiling",
         "short_description": "",
@@ -334,6 +362,33 @@
         "images": []
     },
     {
+        "slug": "snowboard-freeski",
+        "name": "Snowboard & Freeski",
+        "short_description": "",
+        "long_description": "",
+        "contact": "",
+        "cover_image": "",
+        "images": [
+            "https://i.ibb.co/tqB0PfT/image.png",
+            "https://i.ibb.co/2j0jRjk/IMG-0497.jpg",
+            "https://i.ibb.co/0sSzzLh/IMG-0408.jpg",
+            "https://i.ibb.co/qRsJD9d/IMG-0530.jpg",
+            "https://i.ibb.co/FqwXShf/IMG-0891.jpg",
+            "https://i.ibb.co/XCSNm9N/IMG-0898.jpg",
+            "https://i.ibb.co/g6LGk5p/IMG-0919.jpg",
+            "https://i.ibb.co/CQyRtjL/IMG-0920.jpg",
+            "https://i.ibb.co/mJY4j1L/IMG-0959-1.jpg",
+            "https://i.ibb.co/TWLn8v2/IMG-1083.jpg",
+            "https://i.ibb.co/b21Vb9p/IMG-1001.jpg",
+            "https://i.ibb.co/KxpJ3SW/IMG-1018.jpg",
+            "https://i.ibb.co/gJWCMyG/IMG-1022.jpg",
+            "https://i.ibb.co/CnPYhwH/IMG-1071.jpg",
+            "https://i.ibb.co/0sgMDNH/IMG-1139.jpg",
+            "https://i.ibb.co/my2X5HF/IMG-1179.jpg",
+            "https://i.ibb.co/ZHpHVNJ/IMG-1180.jpg"
+        ]
+    },
+    {
         "slug": "squash",
         "name": "Squash",
         "short_description": "",
@@ -345,20 +400,28 @@
     {
         "slug": "svomming",
         "name": "Svømming",
-        "short_description": "",
-        "long_description": "",
-        "contact": "",
-        "cover_image": "",
-        "images": []
+        "short_description": "Liker du å bade? Liker du å svømme? I NTNUI svømming kan alle være med, uansett nivå. Vi har fire treninger i uken, samt kurs og flere sosiale aktiviteter både til land og til vanns. Interessert? Bli med på infomøte da vel!",
+        "long_description": "<p>Vi svømmer fire ganger i uka hos Pirbadet. Mer info ligger på nettsiden vår <a href=\"https://org.ntnu.no/svommer\">https://org.ntnu.no/svommer</a> og i facebookgruppen vår.</p>",
+        "contact": "Kontakt NTNUI Svømming på messenger eller svomming-medlem@ntnui.no på mail.",
+        "cover_image": "https://i.ibb.co/1qCPSsf/Screenshot-20200622-170912972-1-Olav-Bech-Br-ten.png",
+        "images": [
+            "https://i.ibb.co/1qCPSsf/Screenshot-20200622-170912972-1-Olav-Bech-Br-ten.png"
+        ]
     },
     {
         "slug": "swing-og-folkedans",
         "name": "Swing og Folkedans",
-        "short_description": "",
-        "long_description": "",
-        "contact": "",
-        "cover_image": "",
-        "images": []
+        "short_description": "For deg som ønsker å danse i sosiale omgivelser.",
+        "long_description": "<p>Har du lyst til å lære norske folkedanser, eller Trondheims mest populære pardans?<br> Bli med oss, vi har kurs i både folkedans og fire-trinns-swing.<br> I samarbeid med Bondeungdomslaget i Nidaros har vi folkedans som pols, vals, reinlender, og halling, samt muligheter for litt annet.<br> Hvis du er mer interessert i swing har vi gode instruktører som leder vei til suksess der òg.<br> Vi har stort fokus på det sosiale med å danse, så ta med deg det du måtte ha av venner og bekjente og bli med.</p> <p>For å holde deg oppdatert anbefaler vi å holde et øye med Facebook-siden vår, <a href=\"https://www.facebook.com/NTNUISwingFolkedans\">https://www.facebook.com/NTNUISwingFolkedans</a>, hvor det blir informert<br> mer nærmere kursstart og rundt andre begivenheter.</p>",
+        "contact": "ntnuisf@gmail.com, https://ntnui.no/swingogfolkedans, https://www.facebook.com/NTNUISwingFolkedans",
+        "cover_image": "https://i.ibb.co/Yhtd52D/NTNUISF-forside-NTNUI-Swing-og-Folkedans.jpg",
+        "images": [
+            "https://i.ibb.co/0qd9rbV/NTNUISF-festning1-NTNUI-Swing-og-Folkedans.jpg",
+            "https://i.ibb.co/sV0nP59/NTNUISF-festning2-NTNUI-Swing-og-Folkedans.jpg",
+            "https://i.ibb.co/hHgygHY/OLYMPUS-DIGITAL-CAMERA.jpg",
+            "https://i.ibb.co/DC04NMF/OLYMPUS-DIGITAL-CAMERA.jpg",
+            "https://i.ibb.co/yRKZqkG/NTNUISF-Snaustrinda-festning3-NTNUI-Swing-og-Folkedans.jpg"
+        ]
     },
     {
         "slug": "taekwondo",
@@ -423,10 +486,10 @@
     {
         "slug": "volleyball",
         "name": "Volleyball",
-        "short_description": "",
-        "long_description": "",
-        "contact": "",
-        "cover_image": "",
+        "short_description": "Uansett om du har spilt litt volleyball på stranden om sommeren, eller aktivt i mange år, har NTNUI Volleyball et lag for deg. Vi er blant de største gruppene i NTNUI, med nærmere 400 medlemmer. Likevel er interessen for volleyball enda større, og vi arrangerer derfor uttak nå i august. I tillegg til å være glad i volleyball er vi også en sosial gjeng. Vi kan love deg venner, både innad i laget, men også på tvers av lag og divisjoner. ",
+        "long_description": "<p>Både på dame- og herresiden har vi lag i 1., 2. og 3. divisjon. På herresiden har vi i tillegg et lag i eliteserien. For å finne det nivået som passer deg arrangerer vi uttak. Har du aldri spilt volleyball før anbefales 3. divisjon.</p> <p>Tidspunkt for uttak: FYLLES INN HER SENERE NÅR DET ER BESTEMT!<br> Påmelding til uttak skjer her: LINK KOMMER!</p> <p>I tillegg til lag i divisjoner har vi også to breddelag; ett for jenter og ett for gutter. Dette er et lavterskeltilbud for de som ikke ønsker å spille kamper, men kun trene en gang i uka. Påmelding til breddelagene åpner … (FYLLES INN NÅR DET ER BESTEMT) og her er det førstemann til mølla! For å kunne spille volleyball i NTNUI Volleyball kreves et Sit-medlemskap. I tillegg har vi en treningsavgift. Denne varierer ut fra nivå, og betales i begynnelsen av hvert semester.</p> <p>I tillegg til treninger, kamper og turneringer arrangeres også mye sosialt. I september drar alle lagene til Røros på treningsleir. Hvert lag har også en sosialansvarlig som tar hovedansvar for at laget finner på ting sammen utenfor banen. Det arrangeres ofte felles vors og fester for flere lag, blant annet før julebord med hele volleyballgruppen.</p> <p>Vi ønsker deg hjertelig velkommen i NTNUI Volleyball. Både for gamle og nye studenter vil vi bidra til et sosialt og aktivt miljø. Volleyballgruppen gjør det mulig å møte mange nye mennesker, også på tvers av studieretningene.</p> <p>Mer informasjon om volleyballgruppen, kostnader og de ulike lagene finnes på <a href=\"http://ntnuivolleyball.no\">ntnuivolleyball.no</a>.</p>",
+        "contact": "Leder Sven Andreas Nygaard: volleyball-leder@ntnui.no, eller informajonsansvarlig, Åsne Hella: volleyball-info@ntnui.no",
+        "cover_image": "https://i.ibb.co/FHjwjR9/forsidebilde-stand-sne-Hella.jpg",
         "images": []
     }
 ]
