@@ -8,12 +8,12 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 
 // Images
-import aktivCampus from '../../assets/img/aktivCampus.jpg';
+// import aktivCampus from '../../assets/img/aktivCampus.jpg';
 
 // Project Components
 import Banner from '../../components/navigation/Banner';
 import Navigation from '../../components/navigation/Navigation';
-import Box from '../../components/layout/Box';
+// import Box from '../../components/layout/Box';
 
 const useStyles = makeStyles((theme) => ({
   root: {

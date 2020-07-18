@@ -2,6 +2,7 @@ import React, {useRef} from 'react';
 import URLS from '../../URLS';
 import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom';
+import GA from '../../analytics';
 
 // Material UI Components
 import {makeStyles} from '@material-ui/core/styles';
@@ -147,7 +148,10 @@ const scrollToRef = (ref) => window.scrollTo({top: ref.current.offsetTop, behavi
 function Landing(props) {
   const classes = useStyles();
   const content = useRef(null);
-  const executeScroll = () => scrollToRef(content);
+  const executeScroll = () => {
+    scrollToRef(content);
+    GA.event('Button click', 'Scroll down on landing page');
+  };
 
   const GroupButton = (props) => {
     const {to, children} = props;
