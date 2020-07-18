@@ -79,7 +79,7 @@ function GroupDetails(props) {
               text={group.short_description}
               img={group.cover_image || Studenterhytta} />
             <Typography variant='h2' className={classes.title}>Om oss</Typography>
-            <p className={classes.text}>{parser(group.long_description)}</p>
+            <div className={classes.text}>{parser(group.long_description)}</div>
             <Typography variant='h3' className={classes.contact}>Kontakt:</Typography>
             <p className={classes.text}>{group.contact}</p>
             {group.video &&

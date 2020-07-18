@@ -54,7 +54,7 @@
         "slug": "basket",
         "name": "Basket",
         "short_description": "Basketball er en sport som spilles fem mot fem eller tre mot tre. Målet med spillet er å få ballen i kurven som henger 3,05 meter over kortsiden av banen. Man har kun ét steg med ballen etter man har plukket den opp, så det er essensielt at laget beveger seg når de ikke har ballen for å komme i best mulig scoringsposisjon.",
-        "long_description": "<p>Vi har 4 kvinnelag og 5 herrelag i NTNUI Basket, så det er enkelt å finne et lag med nivå som passer for deg! Kvinnelagene spiller i samme liga, men herrelagene er fordelt på første divisjon og andre divisjon. Det femte laget, Cubs, spiller per dags dato ikke serie, men er for dem som vil trene og være del av klubben uten å spille offisielle kamper.</p> <p>Hvert lag har egne sosiale arrangementer, men klubben har og fellesfester i starten av semester og etter nyttår. I tillegg har vi mix-turneringer hvert semester hvor vi blander alle lagene og har en en-dags turnering. Oppå dette kommer grillinger, hytteturer, og watch-parties for NBA eller BLNO kamper 😄</p> <p>Vi har tryouts XX.XX for 3. og 4. laget kvinner, XX.XX for 3., 4., og 5. laget herrer. Topplagene har tryouts XX.XX og XX.XX. De lavere nivåene er for de med lite til medium erfaring med basketball, mens topplagene er for de mest erfarne av dere. Førstedivisjon herrer spiller 15 kamper i året, andredivisjon spiller 8 + sluttspill, og kvinneserien er på 15 kamper den også.</p> <p>Så du “The Last Dance” og tenkte: “Psh, det kan jeg og få til”? Kom på tryouts på Gløshaugen!</p>",
+        "long_description": "<p>Vi har 4 kvinnelag og 5 herrelag i NTNUI Basket, så det er enkelt å finne et lag med nivå som passer for deg! Kvinnelagene spiller i samme liga, men herrelagene er fordelt på første divisjon og andre divisjon. Det femte laget, Cubs, spiller per dags dato ikke serie, men er for dem som vil trene og være del av klubben uten å spille offisielle kamper.</p> <p>Hvert lag har egne sosiale arrangementer, men klubben har og fellesfester i starten av semester og etter nyttår. I tillegg har vi mix-turneringer hvert semester hvor vi blander alle lagene og har en en-dags turnering. Oppå dette kommer grillinger, hytteturer, og watch-parties for NBA eller BLNO kamper 😄</p> <h3>Tryouts:</h3> <p>1. og 2. lag herrer: 07.09 - kl 16:00 - 17:30 og 10.09 - kl 17:30 - 19:00 <br/> 1. og 2. lag kvinner: 07.09 - kl 17:30 - 19:00 og 10.09 - kl 16:00 - 17:30</p> <p>3. og 4. lag kvinner: 14.09 - kl 16:00 - 17:30 og 17.09 - kl 17:30 - 19:00 <br/> 3., 4. og 5. lag herrer: 14.09 - kl 17:30 - 19:00 og 17.09 - kl 16:00 - 17:30</p> <p>De lavere nivåene er for de med lite til medium erfaring med basketball, mens topplagene er for de mest erfarne av dere. Førstedivisjon herrer spiller 15 kamper i året, andredivisjon spiller 8 + sluttspill, og kvinneserien er på 15 kamper den også.</p> <p>Så du “The Last Dance” og tenkte: “Psh, det kan jeg og få til”? Kom på tryouts på Gløshaugen!</p>",
         "contact": "basket-leder@ntnui.no",
         "cover_image": "https://i.ibb.co/gttDKGy/MG-6689-Dag-Hjorth-Endresen.jpg",
         "images": [
@@ -63,8 +63,7 @@
             "https://i.ibb.co/MGYdYbp/Shakers-Dag-Hjorth-Endresen.jpg",
             "https://i.ibb.co/SsfWLWZ/Skjermbilde-2020-06-15-kl-11-44-48-Dag-Hjorth-Endresen.png",
             "https://i.ibb.co/719MbZn/Skjermbilde-2020-06-15-kl-11-44-11-Dag-Hjorth-Endresen.png"
-        ],
-        "video": "https://res.cloudinary.com/olros/video/upload/v1592387319/samples/elephants.mp4"
+        ]
     },
     {
         "slug": "boksing",
