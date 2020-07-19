@@ -2,11 +2,14 @@
     {
         "slug": "aikido",
         "name": "Aikido",
-        "short_description": "Aikido: en moderne kampkunst for kropp og sinn",
+        "short_description": "En moderne kampkunst for kropp og sinn",
         "long_description": "<p>Aikido er trening for å håndtere vanskelige og stressende situasjoner med ro og smidighet.<br> Med utgangspunkt i japanske selvforsvarsteknikker er det først og fremst en treningsform for kroppslig og mental utvikling.</p> <p>En typisk treningsøkt begynner med oppvarming, lett tøyning og pusteøvelser, før vi går videre til trening på fallteknikk og til selve teknikkene.</p> <p>Vi trener i en konsentrert og avslappet atmosfære, noe som gjør aikidoøkten til en form for meditasjon i bevegelse. Samtidig gir aikido allsidig trening for hele kroppen.</p> <p>NTNUI Aikido er en sosial og inkluderende klubb, med erfarne instruktører. Klubben er medlem av Norges Aikidoforbund og Norges Kampsportforbund.</p> <p>For mer informasjon og våre treningstider, se <a href=\"https://ntnui-aikido.com/\">https://ntnui-aikido.com/</a></p>",
         "contact": "trener@aikido.org.ntnu.no",
         "cover_image": "https://i.ibb.co/QHXW5hd/Aikido-bilde-foto-av-Beau-Sanders-Marius-Warholm-Haugen.jpG",
-        "images": []
+        "images": [],
+        "videos": [
+            "https://www.youtube-nocookie.com/embed/1hnOw4HXgVE"
+        ]
     },
     {
         "slug": "amerikansk-fotball",
@@ -63,6 +66,16 @@
             "https://i.ibb.co/MGYdYbp/Shakers-Dag-Hjorth-Endresen.jpg",
             "https://i.ibb.co/SsfWLWZ/Skjermbilde-2020-06-15-kl-11-44-48-Dag-Hjorth-Endresen.png",
             "https://i.ibb.co/719MbZn/Skjermbilde-2020-06-15-kl-11-44-11-Dag-Hjorth-Endresen.png"
+        ],
+        "videos": [
+            "https://www.youtube-nocookie.com/embed/nkonAgVjptI",
+            "https://www.youtube-nocookie.com/embed/GmFQnRQGQiY",
+            "https://www.youtube-nocookie.com/embed/Hmz1L6sy7Q0",
+            "https://www.youtube-nocookie.com/embed/BWCa6rHRT0M",
+            "https://www.youtube-nocookie.com/embed/BHBmUoWFfQY",
+            "https://www.youtube-nocookie.com/embed/GdNxLQsByJY",
+            "https://www.youtube-nocookie.com/embed/fuM-_NeBQA0",
+            "https://www.youtube-nocookie.com/embed/mJycgIYn1lQ"
         ]
     },
     {

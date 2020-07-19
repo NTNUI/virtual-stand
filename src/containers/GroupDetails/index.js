@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '1.2rem',
     margin: '5px 0',
   },
-  images: {
+  grid: {
     display: 'grid',
     gridGap: 10,
     gridTemplateColumns: '1fr 1fr',
@@ -58,6 +58,7 @@ const useStyles = makeStyles((theme) => ({
   video: {
     border: '2px solid ' + theme.colors.background.primaryLight,
     borderRadius: 10,
+    width: '100%',
   },
 }));
 
@@ -82,14 +83,26 @@ function GroupDetails(props) {
             <div className={classes.text}>{parser(group.long_description)}</div>
             <Typography variant='h3' className={classes.contact}>Kontakt:</Typography>
             <p className={classes.text}>{group.contact}</p>
-            {group.video &&
-              <video className={classes.video} controls src={group.video} width='100%' />
+            {group.videos &&
+              <>
+                <Typography variant='h3' className={classes.contact}>Videoer</Typography>
+                <div className={classes.grid}>
+                  {group.videos.map((video, i) => (
+                    <iframe title='Youtube video' key={i} className={classes.video} width="560" height="315" src={video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                  ))}
+                </div>
+              </>
             }
-            <div className={classes.images}>
-              {group.images.map((image, i) => (
-                <img key={i} className={classes.image} src={image} alt={group.name} width='100%' />
-              ))}
-            </div>
+            {group.images.length > 0 &&
+              <>
+                <Typography variant='h3' className={classes.contact}>Bilder</Typography>
+                <div className={classes.grid}>
+                  {group.images.map((image, i) => (
+                    <img key={i} className={classes.image} src={image} alt={group.name} width='100%' />
+                  ))}
+                </div>
+              </>
+            }
           </div>
         </> :
         <>
