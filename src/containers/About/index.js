@@ -6,7 +6,6 @@ import Typography from '@material-ui/core/Typography';
 
 // Images
 import studenterhytta from '../../assets/img/studenterhytta.jpg';
-import triatlon from '../../assets/img/triatlon.jpg';
 import stup from '../../assets/img/stup.jpg';
 
 // Project Components
