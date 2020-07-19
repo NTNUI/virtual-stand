@@ -18,7 +18,7 @@ export default createMuiTheme({
       main: '#B71C1C',
       contrastText: '#ffffff',
     },
-    type: 'light',
+    type: 'dark',
   },
   colors: {
     ntnui: {

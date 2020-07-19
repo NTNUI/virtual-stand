@@ -3,6 +3,7 @@ import URLS from '../../URLS';
 import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom';
 import GA from '../../analytics';
+import {useGroups} from '../../GroupsContext';
 
 // Material UI Components
 import {makeStyles} from '@material-ui/core/styles';
@@ -21,7 +22,6 @@ import ExpandMoreRoundedIcon from '@material-ui/icons/ExpandMoreRounded';
 // Project Components
 import Paper from '../../components/layout/Paper';
 import Navigation from '../../components/navigation/Navigation';
-import GroupsInfo from '../../data/groups-info.json';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -148,6 +148,7 @@ const scrollToRef = (ref) => window.scrollTo({top: ref.current.offsetTop, behavi
 function Landing(props) {
   const classes = useStyles();
   const content = useRef(null);
+  const groups = useGroups();
   const executeScroll = () => {
     scrollToRef(content);
     GA.event('Button click', 'Scroll down on landing page');
@@ -208,9 +209,12 @@ function Landing(props) {
       <div className={classes.groupsRoot}>
         <Typography variant='h2' className={classes.title}>Gruppene våre</Typography>
         <div className={classes.boxes}>
-          {GroupsInfo.map((group) => (
-            <GroupButton key={group.slug} to={URLS.groups.concat(group.slug).concat('/')}>{group.name}</GroupButton>
-          ))}
+          {Object.keys(groups)
+            .map((k) => groups[k])
+            .sort((a, b) => (a.slug > b.slug) ? 1 : -1)
+            .map((group) => (
+              <GroupButton key={group.slug} to={URLS.groups.concat(group.slug).concat('/')}>{group.name}</GroupButton>
+            ))}
         </div>
       </div>
     </Navigation>

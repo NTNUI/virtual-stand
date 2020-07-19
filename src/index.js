@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import URLS from './URLS';
 import GA from './analytics';
+import {GroupsProvider} from './GroupsContext';
 
 // Theme
 import {MuiThemeProvider} from '@material-ui/core/styles';
@@ -11,27 +12,33 @@ import './assets/css/main.css';
 
 // Project containers
 import Landing from './containers/Landing';
+import Login from './containers/Login';
 import About from './containers/About';
 import ActiveCampus from './containers/ActiveCampus';
 import Admin from './containers/Admin';
 import Games from './containers/Games';
 import GroupDetails from './containers/GroupDetails';
+import GroupEdit from './containers/GroupEdit';
 
 function App() {
   return (
-    <BrowserRouter>
-      <MuiThemeProvider theme={theme}>
-        {process.env.NODE_ENV === 'production' && GA.init() && <GA.RouteTracker /> }
-        <Switch>
-          <Route exact path={URLS.ntnui} component={About} />
-          <Route exact path={URLS.activeCampus} component={ActiveCampus} />
-          <Route exact path={URLS.admin} component={Admin} />
-          <Route exact path={URLS.games} component={Games} />
-          <Route exact path={URLS.groups.concat(':slug')} component={GroupDetails} />
-          <Route path={URLS.landing} component={Landing} />
-        </Switch>
-      </MuiThemeProvider>
-    </BrowserRouter>
+    <GroupsProvider>
+      <BrowserRouter>
+        <MuiThemeProvider theme={theme}>
+          {process.env.NODE_ENV === 'production' && GA.init() && <GA.RouteTracker /> }
+          <Switch>
+            <Route exact path={URLS.ntnui} component={About} />
+            <Route exact path={URLS.activeCampus} component={ActiveCampus} />
+            <Route exact path={URLS.admin} component={Admin} />
+            <Route exact path={URLS.games} component={Games} />
+            <Route exact path={URLS.groups.concat(':slug').concat(URLS.edit)} component={GroupEdit} />
+            <Route exact path={URLS.groups.concat(':slug')} component={GroupDetails} />
+            <Route exact path={URLS.login} component={Login} />
+            <Route path={URLS.landing} component={Landing} />
+          </Switch>
+        </MuiThemeProvider>
+      </BrowserRouter>
+    </GroupsProvider>
   );
 }
 
