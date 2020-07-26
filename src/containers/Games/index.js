@@ -5,7 +5,7 @@ import {makeStyles} from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 
 // Images
-import studentlekene from '../../assets/img/studentlekene.jpg';
+import studentlekene from '../../assets/img/sltrondheim.jpg';
 
 // Project Components
 import Banner from '../../components/navigation/Banner';
@@ -49,9 +49,9 @@ function Games(props) {
           text='Vil du være med å skape Norges største idrettsarrangement for studenter? Nå har du muligheten! Dersom du er gira på et spennende, lærerikt og gøyalt verv – SØK NÅ!'
           img={studentlekene} />
         <Typography variant='h2' className={classes.title}>Om oss</Typography>
-        <p className={classes.text}>Studentlekene 2019 er en av Norges største studentidrettsfestivaler og vil bli arrangert i Trondheim 24.-28. februar 2021. Lekene er en samling av studentmesterskap og studentcup i en rekke idretter på alle nivåer.</p>
-        <p className={classes.text}>Studentlekene hadde sitt inntog i studentidretten i 1999 hvor NTNUI tok imot 800 deltakere i ti ulike idretter. Dette var starten på noe som skulle vise seg å være en stor suksess og siden 2010 har lekene blitt arrangert hvert eneste år med stadig voksende deltakerantall og interesse i resten av studentidretts-Norge. Det ble sist arrangert i Tromsø våren 2018.</p>
-        <p className={classes.text}>Studentidrett er kjent for aktive miljøer, både i bredde- og toppidrett, og Studentlekene 2017 bygger opp under denne ideen ved sitt slagord «Bli med på leken». Lekene vil samle tusentall av idrettsinteresserte studenter fra hele landet til konkurranser, foredrag, kurs og festligheter i fire dager. Det arrangeres konkurranser i både lagidretter og individuelle idretter. For vinneren av et studentmesterskap venter heder og ære, retten til å kalle seg norsk studentmester og kvalifisering til student-EM i 2018, dersom dette arrangeres.</p>
+        <p className={classes.text}>Studentlekene er en av Norges største studentidrettsfestivaler og vil bli arrangert i Trondheim 24.-28. februar 2021. Lekene er en samling av studentmesterskap og studentcup i en rekke idretter på alle nivåer.</p>
+        <p className={classes.text}>Studentlekene hadde sitt inntog i studentidretten i 1999 hvor NTNUI tok imot 800 deltakere i ti ulike idretter. Dette var starten på noe som skulle vise seg å være en stor suksess og siden 2010 har lekene blitt arrangert hvert eneste år med stadig voksende deltakerantall og interesse i resten av studentidretts-Norge.</p>
+        <p className={classes.text}>Studentidrett er kjent for aktive miljøer, både i bredde- og toppidrett, og SL Trondheim 2021 bygger opp under denne ideen ved sitt slagord «Bli med på leken». Lekene vil samle tusentall av idrettsinteresserte studenter fra hele landet til konkurranser, foredrag, kurs og festligheter i fire dager. Det arrangeres konkurranser i både lagidretter og individuelle idretter. For vinneren av et studentmesterskap venter heder og ære, retten til å kalle seg norsk studentmester og kvalifisering til student-EM, dersom dette arrangeres.</p>
         <p className={classes.text}>Konkurransene vil foregå i private og kommunale haller, samt på utendørs-arenaer i Trondheim kommune. Mange av mesterskapene vil bli holdt i nærhet av hverandre, slik at det vil være mulig for tilskuere å se mangfoldet i studentidretten. Trondheim vil også være preget av ikke-sportslige aktiviteter denne helgen. Se frem til foredrag, kurs og andre festligheter både for deltakere, frivillige og andre studenter!</p>
       </div>
     </Navigation>

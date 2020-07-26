@@ -16,7 +16,7 @@ import Studenterhytta from '../../assets/img/studenterhytta.jpg';
 import aktivCampus from '../../assets/img/aktivCampus.jpg';
 import NTNUILogo from '../../assets/img/NTNUILogo.svg';
 import genfors from '../../assets/img/genfors.jpg';
-import studentlekene from '../../assets/img/studentlekene.jpg';
+import studentlekene from '../../assets/img/sltrondheim.jpg';
 import ExpandMoreRoundedIcon from '@material-ui/icons/ExpandMoreRounded';
 
 // Project Components
@@ -75,10 +75,13 @@ const useStyles = makeStyles((theme) => ({
   },
   groupHeader: {
     color: theme.colors.text.primaryContrast,
-    textShadow: '0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black',
-    margin: '120px auto',
+    // textShadow: '0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black',
+    margin: 'auto auto 240px',
     textAlign: 'center',
     fontSize: '2.2rem',
+    width: 'fit-content',
+    padding: 5,
+    borderRadius: 10,
   },
   '@keyframes move': {
     '0%': {
@@ -187,22 +190,22 @@ function Landing(props) {
       <div className={classes.root} ref={content}>
         <Button component={Link} to={URLS.admin} className={classes.groupButton}>
           <Paper img={genfors}>
-            <Typography variant='h2' className={classes.groupHeader}>Admin</Typography>
+            <Typography variant='h2' className={classes.groupHeader} style={{background: '#9a560c'}}>Admin</Typography>
           </Paper>
         </Button>
         <Button component={Link} to={URLS.ntnui} className={classes.groupButton}>
           <Paper img={'https://ntnui.no/wp-content/uploads/2020/03/visjon-2.jpg'}>
-            <Typography variant='h2' className={classes.groupHeader}>Om NTNUI</Typography>
+            <Typography variant='h2' className={classes.groupHeader} style={{background: '#7a8c8e', color: '#111111'}}>Om NTNUI</Typography>
           </Paper>
         </Button>
         <Button component={Link} to={URLS.games} className={classes.groupButton}>
           <Paper img={studentlekene}>
-            <Typography variant='h2' className={classes.groupHeader}>Studentlekene</Typography>
+            <Typography variant='h2' className={classes.groupHeader} style={{background: '#ffffff', color: '#111111'}}>Studentlekene</Typography>
           </Paper>
         </Button>
         <Button component={Link} to={URLS.activeCampus} className={classes.groupButton}>
           <Paper img={aktivCampus}>
-            <Typography variant='h2' className={classes.groupHeader}>AktivCampus</Typography>
+            <Typography variant='h2' className={classes.groupHeader} style={{background: '#a52386'}}>AktivCampus</Typography>
           </Paper>
         </Button>
       </div>

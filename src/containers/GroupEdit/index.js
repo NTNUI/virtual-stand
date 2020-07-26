@@ -180,8 +180,7 @@ const ArrayItems = (props) => {
       setFileUploadError('Du må velge et bilde');
       return;
     } else if (file.size > 800000) {
-      setFileUploadError('Bildet er for stort, komprimer det og prøv på nytt');
-      return;
+      setFileUploadError('Bildet er stort og kan gjøre innlastningen av siden treg');
     }
     const storageRef = firebase.storage().ref('images/' + file.name);
     const uploadTask = storageRef.put(file);
@@ -272,8 +271,7 @@ function GroupEdit(props) {
       setFileUploadError('Du må velge et bilde');
       return;
     } else if (file.size > 800000) {
-      setFileUploadError('Bildet er for stort, komprimer det og prøv på nytt');
-      return;
+      setFileUploadError('Bildet er stort og kan gjøre innlastningen av siden treg');
     }
     const storageRef = firebase.storage().ref('cover_images/' + file.name);
     const uploadTask = storageRef.put(file);
