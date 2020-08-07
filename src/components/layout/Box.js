@@ -55,7 +55,7 @@ const useStyles = makeStyles((theme) => ({
     minHeight: 350,
     objectFit: 'cover',
     '@media only screen and (max-width: 700px)': {
-      minHeight: 200,
+      minHeight: 250,
     },
   },
   button: {
