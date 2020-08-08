@@ -144,6 +144,20 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: 15,
     fontSize: '1.4rem',
   },
+  videoContainer: {
+    width: '100%',
+    maxWidth: 1200,
+    margin: 'auto',
+    padding: 20,
+  },
+  video: {
+    border: '2px solid ' + theme.colors.background.primaryLight,
+    borderRadius: 10,
+    width: '100%',
+    '@media only screen and (min-width: 700px)': {
+      height: '80vh',
+    },
+  },
 }));
 
 const scrollToRef = (ref) => window.scrollTo({top: ref.current.offsetTop, behavior: 'smooth'});
@@ -187,27 +201,34 @@ function Landing(props) {
           <ExpandMoreRoundedIcon className={classes.moreIcon} height='40px' />
         </IconButton>
       </div>
-      <div className={classes.root} ref={content}>
-        <Button component={Link} to={URLS.admin} className={classes.groupButton}>
-          <Paper img={genfors}>
-            <Typography variant='h2' className={classes.groupHeader} style={{background: '#9a560c'}}>Admin</Typography>
-          </Paper>
-        </Button>
-        <Button component={Link} to={URLS.ntnui} className={classes.groupButton}>
-          <Paper img={'https://ntnui.no/wp-content/uploads/2020/03/visjon-2.jpg'}>
-            <Typography variant='h2' className={classes.groupHeader} style={{background: '#7a8c8e', color: '#111111'}}>Om NTNUI</Typography>
-          </Paper>
-        </Button>
-        <Button component={Link} to={URLS.games} className={classes.groupButton}>
-          <Paper img={studentlekene}>
-            <Typography variant='h2' className={classes.groupHeader} style={{background: '#ffffff', color: '#111111'}}>Studentlekene</Typography>
-          </Paper>
-        </Button>
-        <Button component={Link} to={URLS.activeCampus} className={classes.groupButton}>
-          <Paper img={aktivCampus}>
-            <Typography variant='h2' className={classes.groupHeader} style={{background: '#a52386'}}>AktivCampus</Typography>
-          </Paper>
-        </Button>
+      <div ref={content}>
+        {Date.now() < new Date(2020, 7, 11, 0, 0, 0) &&
+          <div className={classes.videoContainer}>
+            <iframe title='Livestream' className={classes.video} width="560" height="315" src='https://www.youtube-nocookie.com/embed/vxy8Wzdz8Fw' frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
+        }
+        <div className={classes.root}>
+          <Button component={Link} to={URLS.admin} className={classes.groupButton}>
+            <Paper img={genfors}>
+              <Typography variant='h2' className={classes.groupHeader} style={{background: '#9a560c'}}>Admin</Typography>
+            </Paper>
+          </Button>
+          <Button component={Link} to={URLS.ntnui} className={classes.groupButton}>
+            <Paper img={'https://ntnui.no/wp-content/uploads/2020/03/visjon-2.jpg'}>
+              <Typography variant='h2' className={classes.groupHeader} style={{background: '#7a8c8e', color: '#111111'}}>Om NTNUI</Typography>
+            </Paper>
+          </Button>
+          <Button component={Link} to={URLS.games} className={classes.groupButton}>
+            <Paper img={studentlekene}>
+              <Typography variant='h2' className={classes.groupHeader} style={{background: '#ffffff', color: '#111111'}}>Studentlekene</Typography>
+            </Paper>
+          </Button>
+          <Button component={Link} to={URLS.activeCampus} className={classes.groupButton}>
+            <Paper img={aktivCampus}>
+              <Typography variant='h2' className={classes.groupHeader} style={{background: '#a52386'}}>AktivCampus</Typography>
+            </Paper>
+          </Button>
+        </div>
       </div>
       <div className={classes.groupsRoot}>
         <Typography variant='h2' className={classes.title}>Gruppene våre</Typography>
