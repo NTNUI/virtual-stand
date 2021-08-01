@@ -6,5 +6,4 @@ export default {
   groups: '/grupper/',
   edit: '/rediger/',
   games: '/studentlekene/',
-  activeCampus: '/aktivcampus/',
 };

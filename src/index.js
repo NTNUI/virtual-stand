@@ -14,7 +14,6 @@ import './assets/css/main.css';
 import Landing from './containers/Landing';
 import Login from './containers/Login';
 import About from './containers/About';
-import ActiveCampus from './containers/ActiveCampus';
 import Admin from './containers/Admin';
 import Games from './containers/Games';
 import GroupDetails from './containers/GroupDetails';
@@ -28,7 +27,6 @@ function App() {
           {process.env.NODE_ENV === 'production' && GA.init() && <GA.RouteTracker /> }
           <Switch>
             <Route exact path={URLS.ntnui} component={About} />
-            <Route exact path={URLS.activeCampus} component={ActiveCampus} />
             <Route exact path={URLS.admin} component={Admin} />
             <Route exact path={URLS.games} component={Games} />
             <Route exact path={URLS.groups.concat(':slug').concat(URLS.edit)} component={GroupEdit} />
