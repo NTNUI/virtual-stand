@@ -208,24 +208,24 @@ function Landing(props) {
           </div>
         }
         <div className={classes.root}>
-          <Button component={Link} to={URLS.admin} className={classes.groupButton}>
-            <Paper img={genfors}>
-              <Typography variant='h2' className={classes.groupHeader} style={{background: '#9a560c'}}>Admin</Typography>
-            </Paper>
-          </Button>
           <Button component={Link} to={URLS.ntnui} className={classes.groupButton}>
             <Paper img={'https://ntnui.no/wp-content/uploads/2020/03/visjon-2.jpg'}>
               <Typography variant='h2' className={classes.groupHeader} style={{background: '#7a8c8e', color: '#111111'}}>Om NTNUI</Typography>
             </Paper>
           </Button>
+          <Button component={Link} to={URLS.admin} className={classes.groupButton}>
+            <Paper img={genfors}>
+              <Typography variant='h2' className={classes.groupHeader} style={{background: '#9a560c'}}>Admin</Typography>
+            </Paper>
+          </Button>
+          <Button href="https://ntnui.no/aktivcampus" className={classes.groupButton}>
+            <Paper img={aktivCampus}>
+              <Typography variant='h2' className={classes.groupHeader} style={{background: '#a52386'}}>aktivCampus</Typography>
+            </Paper>
+          </Button>
           <Button component={Link} to={URLS.games} className={classes.groupButton}>
             <Paper img={studentlekene}>
               <Typography variant='h2' className={classes.groupHeader} style={{background: '#ffffff', color: '#111111'}}>Studentlekene</Typography>
-            </Paper>
-          </Button>
-          <Button component={Link} to={URLS.activeCampus} className={classes.groupButton}>
-            <Paper img={aktivCampus}>
-              <Typography variant='h2' className={classes.groupHeader} style={{background: '#a52386'}}>AktivCampus</Typography>
             </Paper>
           </Button>
         </div>
