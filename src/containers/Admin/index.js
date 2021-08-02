@@ -51,12 +51,12 @@ function Admin(props) {
           buttonText='Bli en av oss!'
           title='Blits'
           text='Blits er kommunikasjonsutvalget til NTNUI. Vi jobber med fotografi, videografi, design og innholdsproduksjon. Vi jobber i G Suite, WordPress og Adobe CC, og du vil få tilgang på programvare og verktøy for å dokumentere de beste øyeblikkene i studietiden!'
-          img='https://ntnui.no/wp-content/uploads/2019/06/basket-2-1024x683.jpg' />
+          img='https://ntnui.no/wp-content/uploads/2021/08/i-WvqvDNf-4K-90.jpg' />
         <Box
           href='https://ntnui.no/opptak/'
           buttonText='Bli en av oss!'
           title='Paraidrett'
-          text='Brenner du for breddeidrett, lavterskeltilbud og bevegelsesglede? Sjekk ut NTNUI Paraidrett! Vi er et informasjonsmedium for studenter og andre som ønsker å drive med paraidrett samtidig som vi bidrar til å opprettholde paraidretten i Trondheim. Bli med på laget!'
+          text='Brenner du for breddeidrett, lavterskeltilbud og bevegelsesglede? Sjekk ut NTNUI Paraidrett! Vi er et informasjonsmedium for studenter og andre som ønsker å drive med paraidrett samtidig som vi bidrar til å opprettholde paraidretten i Trondheim.'
           img='https://ntnui.no/wp-content/uploads/2018/12/Paraidrett-2-1-1110x530.jpg' />
         <Box
           href='https://ntnui.no/opptak/'
@@ -68,7 +68,7 @@ function Admin(props) {
           href='https://ntnui.no/opptak/'
           buttonText='Bli en av oss!'
           title='Økonomi'
-          text='Ønsker du å forbedre de økonomiske prosessene til Norges største idrettslag? Du får jobbe med PwC og du bistår med de økonomiske prosessene i NTNUI. Du vil også ta del i internrevisjonen vår!'
+          text='Ønsker du å forbedre de økonomiske prosessene til Norges største idrettslag? Med over 20 millioner i omsetning trenger vi skarpe hoder for å forvalte midlene best mulig for fellesskapet. Du vil også ta del i internrevisjonen vår!'
           img='https://ntnui.no/wp-content/uploads/2019/08/%C3%B8konomi-analyse-excel.jpeg' />
       </div>
     </Navigation>

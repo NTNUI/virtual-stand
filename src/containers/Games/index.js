@@ -43,7 +43,7 @@ function Games(props) {
       <Banner title='Studentlekene' />
       <div className={classes.root}>
         <Box
-          href='https://ntnui.no/opptak'
+          href='https://ntnui.no/opptak/'
           buttonText='Bli en av oss!'
           title='Studentlekene Trondheim'
           text='Vil du være med å skape Norges største idrettsarrangement for studenter i 2023? Nå har du muligheten! Dersom du er gira på et spennende, lærerikt og gøyalt verv – SØK NÅ!'
