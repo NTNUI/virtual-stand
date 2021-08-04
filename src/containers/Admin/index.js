@@ -43,15 +43,21 @@ function Admin(props) {
         <Box
           href='https://ntnui.no/opptak/'
           buttonText='Bli en av oss!'
-          title='Event'
-          text='Liker du å organisere, planlegge og gjennomføre arrangementer? Vi i arrangementutvalget bistår Hovedstyret i deres arbeid for å skape de beste øyeblikkene i studietiden. Bli med!'
-          img='https://ntnui.no/wp-content/uploads/2019/01/faq3-1024x683.jpg' />
-        <Box
-          href='https://ntnui.no/opptak/'
-          buttonText='Bli en av oss!'
           title='Blits'
           text='Blits er kommunikasjonsutvalget til NTNUI. Vi jobber med fotografi, videografi, design og innholdsproduksjon. Vi jobber i G Suite, WordPress og Adobe CC, og du vil få tilgang på programvare og verktøy for å dokumentere de beste øyeblikkene i studietiden!'
           img='https://ntnui.no/wp-content/uploads/2021/08/i-WvqvDNf-4K-90.jpg' />
+        <Box
+          href='https://ntnui.no/opptak/'
+          buttonText='Bli en av oss!'
+          title='Bumerang'
+          text='Bumerang gir deg muligheten til å benytte Trondheims fantastiske natur gjennom deres gratis utleie av turutstyr. Dette innebærer blant annet ski-, fiske- og teltutstyr. De holder til på Moholt studentby og drives av frivillige studenter som står klar til å gi deg de beste opplevelsene i studietiden din!'
+          img='https://firebasestorage.googleapis.com/v0/b/virtual-stand.appspot.com/o/cover_images%2Futstyr.jpg?alt=media&token=8055fe8e-c13a-469f-b959-8ea7a016210f' />
+        <Box
+          href='https://ntnui.no/opptak/'
+          buttonText='Bli en av oss!'
+          title='Event'
+          text='Liker du å organisere, planlegge og gjennomføre arrangementer? Vi i arrangementutvalget bistår Hovedstyret i deres arbeid for å skape de beste øyeblikkene i studietiden. Bli med!'
+          img='https://ntnui.no/wp-content/uploads/2019/01/faq3-1024x683.jpg' />
         <Box
           href='https://ntnui.no/opptak/'
           buttonText='Bli en av oss!'
