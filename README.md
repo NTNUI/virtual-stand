@@ -15,11 +15,11 @@ The project is built using React and [Google Firestore Database](https://firebas
 
 ## Firestore database
 
-To add a new group, a developer must add a new field directly in the Firestore database. Any authenticated user/non-developer can edit groups at `stand.ntnui.no/grupper/[slug]/rediger/`.
+To add a new group, a developer must add a new field directly in the Firestore database. Any authenticated user/non-developer can edit existing groups at `stand.ntnui.no/grupper/[slug]/rediger/`.
 
 ### Group object template
 
-To add a group, you need to add a field in `info > group`:
+To add a group, you need to create a new field in `info > group`:
 
 ```firebase
 groupname (map)
@@ -27,13 +27,13 @@ groupname (map)
     cover_image (string): ""
     images (array): []
     long_description (string): ""
-    name (string): "GroupName"
-    short_description (String): ""
+    name (string): "Group name"
+    short_description (string): ""
     slug (string): "groupname"
 ```
 
 An example of a group after adding a new map field in the database:
 
-![firestore template object](https://i.imgur.com/6FH5t5B.png)
+<img width="300" src="https://i.imgur.com/6FH5t5B.png" />
 
 After adding the new group, add data/information to the group using the live site itself while logged in, at `stand.ntnui.no/grupper/[slug]/rediger/`.
