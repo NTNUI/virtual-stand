@@ -158,6 +158,20 @@ const useStyles = makeStyles((theme) => ({
       height: '80vh',
     },
   },
+  redirectButton: {
+    background: 'rgba(45, 41, 38, 0.5)',
+    color: theme.colors.text.primaryContrast,
+    margin: 'auto auto',
+    textAlign: 'center',
+    fontSize: '2.4rem',
+    width: 'fit-content',
+    padding: 15,
+    borderRadius: 15,
+    '&:hover': {
+      color: theme.colors.text.primaryContrast,
+      boxShadow: '0px 1px 4px rgba(45, 41, 38, 1)',
+    },
+  },
 }));
 
 const scrollToRef = (ref) => window.scrollTo({top: ref.current.offsetTop, behavior: 'smooth'});
@@ -202,11 +216,9 @@ function Landing(props) {
         </IconButton>
       </div>
       <div ref={content}>
-        {Date.now() < new Date(2020, 7, 11, 0, 0, 0) &&
-          <div className={classes.videoContainer}>
-            <iframe title='Livestream' className={classes.video} width="560" height="315" src='https://www.youtube-nocookie.com/embed/vxy8Wzdz8Fw' frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </div>
-        }
+        <div className={classes.title}>
+          <Button className={classes.redirectButton} href="https://ntnui.no/">Gå til ntnui.no</Button>
+        </div>
         <div className={classes.root}>
           <Button component={Link} to={URLS.ntnui} className={classes.groupButton}>
             <Paper img={'https://ntnui.no/wp-content/uploads/2020/03/visjon-2.jpg'}>
