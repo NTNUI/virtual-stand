@@ -188,14 +188,14 @@ function Landing(props) {
   const GroupButton = (props) => {
     const {to, children} = props;
     return (
-      <Button
-        component={Link}
-        to={to}
-        variant='contained'
-        color='secondary'
-        className={classes.button}>
-        {children}
-      </Button>);
+      <a href={'https://medlem.ntnui.no/groups/' + to}>
+        <Button
+          variant='contained'
+          color='secondary'
+          className={classes.button}>
+          {children}
+        </Button>
+      </a>);
   };
 
   GroupButton.propTypes = {
@@ -248,8 +248,7 @@ function Landing(props) {
           {Object.keys(groups)
             .map((k) => groups[k])
             .sort((a, b) => (a.slug > b.slug) ? 1 : -1)
-            .map((group) => (
-              <GroupButton key={group.slug} to={URLS.groups.concat(group.slug).concat('/')}>{group.name}</GroupButton>
+            .map((group) => (<GroupButton to={group.slug} key={group.slug}>{group.name}</GroupButton>
             ))}
         </div>
       </div>
