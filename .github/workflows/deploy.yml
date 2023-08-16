@@ -8,6 +8,14 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+      
+      - name: Setup Node 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
       - name: Yarn Installation
         run: |
           mkdir ~/.npm-global
@@ -16,9 +24,6 @@ jobs:
           source ~/.profile
           npm install -g yarn
 
-      - name: Checkout Repo
-        uses: actions/checkout@master
-
       - name: Install Dependencies
         run: yarn install
 
@@ -26,7 +31,7 @@ jobs:
         run: yarn build
 
       - name: Archive Production Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: build
           path: build/
@@ -37,10 +42,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@master
+        uses: actions/checkout@v3
+      
+      - name: Setup Node 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
 
       - name: Download Artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: build
           path: build
